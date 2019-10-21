@@ -1,35 +1,28 @@
 <template>
-  <div>
-    <mailchimp-subscribe
-      login="ueber"
-      data-center="us17"
-      user-id="1bc6d9d915dfd1f9d0950399d"
-      list-id="603ad75049"
-    >
-      <template v-slot="{ subscribe, setEmail, error, success }">
-        <form @submit.prevent="subscribe">
-          <input type="email" @input="setEmail($event.target.value)">
-          <button type="submit">
-            Submit
-          </button>
-          <div v-if="error">
-            {{ error }}
-          </div>
-          <div v-if="success">
-            YAY!
-          </div>
-        </form>
-      </template>
-    </mailchimp-subscribe>
+  <div class="app">
+    <div class="app__inner">
+      <img class="app__logo" src="@/assets/images/logo.png">
+      <h1 class="app__title">
+        Speed up your daily work
+      </h1>
+      <p class="app__subtitle">
+        If you want to get productivity superpowers, sign up for the beta users mailing list!
+      </p>
+      <newsletter-form class="app__form" />
+    </div>
   </div>
 </template>
 
 <script>
-import MailchimpSubscribe from 'vue-mailchimp-subscribe'
+import NewsletterForm from '@/components/NewsletterForm'
 
 export default {
   components: {
-    MailchimpSubscribe,
+    NewsletterForm,
   },
 }
 </script>
+
+<style lang="scss" src="./fonts.scss"></style>
+<style lang="scss" src="./base.scss"></style>
+<style lang="scss" src="./app.scss" scoped></style>
