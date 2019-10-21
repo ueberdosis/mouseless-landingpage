@@ -1,39 +1,10 @@
 .app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem 1.5rem;
-  min-height: 100vh;
-  max-width: 42rem;
-  margin: 0 auto;
+  
+  &__header {
 
-  &__logo {
-    width: 100%;
-    max-width: 18rem;
-    margin-bottom: -3rem;
   }
 
-  &__title {
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-  }
-
-  &__subtitle {
-    text-align: center;
-    opacity: 0.5;
-    font-size: 1.4rem;
-    font-weight: 500;
-    max-width: 30rem;
-    margin-bottom: 2rem;
-
-    @media screen and (max-width: 600px) {
-      font-size: 1.2rem;
-    }
-  }
-
-  &__form {
-    max-width: 22rem;
+  &__footer {
+    
   }
 }

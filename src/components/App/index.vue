@@ -1,22 +1,40 @@
 <template>
   <div class="app">
-    <img class="app__logo" src="@/assets/images/logo.png">
-    <h1 class="app__title">
-      Speed up your daily work
-    </h1>
-    <p class="app__subtitle">
-      If you want to get productivity superpowers, sign up for the beta users mailing list!
-    </p>
-    <newsletter-form class="app__form" />
+    <header class="app__header">
+      navi
+    </header>
+    <main>
+      <app-section color="yellow">
+        <h1>
+          Speed up your daily work
+        </h1>
+        <p>
+          If you want to get productivity superpowers, sign up for the beta users mailing list!
+        </p>
+      </app-section>
+
+      <app-section show-wave>
+        <demo-video />
+      </app-section>
+    </main>
+    <footer class="app__footer">
+      <app-section>
+        <app-footer />
+      </app-section>
+    </footer>
   </div>
 </template>
 
 <script>
-import NewsletterForm from '@/components/NewsletterForm'
+import AppSection from '@/components/AppSection'
+import AppFooter from '@/components/AppFooter'
+import DemoVideo from '@/components/DemoVideo'
 
 export default {
   components: {
-    NewsletterForm,
+    AppSection,
+    AppFooter,
+    DemoVideo,
   },
 }
 </script>

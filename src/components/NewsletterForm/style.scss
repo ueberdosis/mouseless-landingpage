@@ -6,15 +6,15 @@
   &__content {
     display: flex;
     width: 100%;
-    background-color: $colorWhite;
+    background-color: rgba($colorWhite, 0.1);
     border-radius: 9px;
     padding: 0.4rem;
     transition: box-shadow 0.2s $ease;
-    box-shadow: 0px 4px 20px rgba($colorBlack, 0.05);
+    // box-shadow: 0px 4px 20px rgba($colorBlack, 0.05);
 
-    &:focus-within {
-      box-shadow: 0 0 0 3px rgba($colorBlack, 0.1);
-    }
+    // &:focus-within {
+    //   box-shadow: 0 0 0 3px rgba($colorBlack, 0.1);
+    // }
   }
 
   &__error,
@@ -47,8 +47,8 @@
 
   &__button {
     flex: 0 0 auto;
-    background-color: $colorBlack;
-    color: $colorWhite;
+    background-color: $colorYellow;
+    color: $colorBlack;
     border-radius: 6px;
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
