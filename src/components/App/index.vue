@@ -1,15 +1,13 @@
 <template>
   <div class="app">
-    <div class="app__inner">
-      <img class="app__logo" src="@/assets/images/logo.png">
-      <h1 class="app__title">
-        Speed up your daily work
-      </h1>
-      <p class="app__subtitle">
-        If you want to get productivity superpowers, sign up for the beta users mailing list!
-      </p>
-      <newsletter-form class="app__form" />
-    </div>
+    <img class="app__logo" src="@/assets/images/logo.png">
+    <h1 class="app__title">
+      Speed up your daily work
+    </h1>
+    <p class="app__subtitle">
+      If you want to get productivity superpowers, sign up for the beta users mailing list!
+    </p>
+    <newsletter-form class="app__form" />
   </div>
 </template>
 

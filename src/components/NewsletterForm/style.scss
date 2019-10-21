@@ -1,7 +1,7 @@
 .newsletter-form {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  max-width: 22rem;
   
   &__content {
     display: flex;
@@ -37,6 +37,7 @@
   }
 
   &__input {
+    width: 100%;
     font-size: 1rem;
     font-weight: 500;
     flex: 1 1 auto;
