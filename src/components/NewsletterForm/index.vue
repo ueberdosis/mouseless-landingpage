@@ -5,14 +5,24 @@
     user-id="1bc6d9d915dfd1f9d0950399d"
     list-id="603ad75049"
   >
-    <template v-slot="{ subscribe, setEmail, error, success }">
+    <template v-slot="{ subscribe, setEmail, error, success, loading }">
       <form class="newsletter-form" @submit.prevent="subscribe">
-        <input class="newsletter-form__input" type="email" @input="setEmail($event.target.value)">
-        <button class="newsletter-form__button" type="submit">
-          Submit
-        </button>
+        <div class="newsletter-form__content">
+          <input
+            class="newsletter-form__input"
+            type="email"
+            @input="setEmail($event.target.value)"
+            placeholder="Your email"
+          >
+          <button class="newsletter-form__button" :disabled="loading" type="submit">
+            Subscribe
+          </button>
+        </div>
         <div class="newsletter-form__error" v-if="error">
           {{ error }}
+        </div>
+        <div class="newsletter-form__success" v-if="success">
+          To complete the subscription process, please click the link in the email we just sent you.
         </div>
       </form>
     </template>

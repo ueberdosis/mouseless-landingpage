@@ -40,6 +40,14 @@
   background-color: transparent;
 }
 
+html {
+  font-size: 12px;
+
+  @media screen and (min-width: 600px) {
+    font-size: 16px;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,11 +56,7 @@ body {
   color: $colorWhite;
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
-}
-
-h1 {
-  font-size: 34px;
-  margin-bottom: 1rem;
+  font-size: 1.35rem;
 }
 
 p {
@@ -64,6 +68,15 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+
+  @media screen and (max-width: 600px) {
+    font-size: 3rem;
+  }
+}
+
 button,
 input,
 textarea {
@@ -71,6 +84,15 @@ textarea {
   border: none;
   font: inherit;
   color: inherit;
+}
+
+::placeholder {
+  color: currentColor;
+  opacity: 0.3;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
 }
 
 .truncate {
