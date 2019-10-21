@@ -4,6 +4,7 @@
     data-center="us17"
     user-id="1bc6d9d915dfd1f9d0950399d"
     list-id="603ad75049"
+    @success="onSuccess"
   >
     <template v-slot="{ subscribe, setEmail, error, success, loading }">
       <form class="newsletter-form" @submit.prevent="subscribe">
@@ -11,7 +12,8 @@
           <input
             class="newsletter-form__input"
             type="email"
-            @input="setEmail($event.target.value)"
+            v-model="email"
+            @input="setEmail(email)"
             placeholder="Your email"
           >
           <button class="newsletter-form__button" :disabled="loading" type="submit">
@@ -35,6 +37,18 @@ import MailchimpSubscribe from 'vue-mailchimp-subscribe'
 export default {
   components: {
     MailchimpSubscribe,
+  },
+
+  methods: {
+    onSuccess() {
+      this.email = null
+    },
+  },
+
+  data() {
+    return {
+      email: null,
+    }
   },
 }
 </script>
