@@ -3,6 +3,7 @@
     <div class="app__left">
       <div class="app__left-inner">
         <img class="app__logo" src="@/assets/images/logo.png">
+        Coming Soon
         <h1 class="app__title">
           The #1 Way to Get Productivity Superpowers
         </h1>
