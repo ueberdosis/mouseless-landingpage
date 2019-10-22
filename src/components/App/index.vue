@@ -4,16 +4,22 @@
       <div class="app__left-inner">
         <img class="app__logo" src="@/assets/images/logo.png">
         <h1 class="app__title">
-          Speed up your daily work
+          The #1 Way to Get Productivity Superpowers
         </h1>
         <p class="app__subtitle">
-          If you want to get productivity superpowers, sign up for the beta users mailing list!
+          A beautiful way to become better with all the creative tools you already know and love.
+          Sign up to find out when it’s ready.
         </p>
         <newsletter-form class="app__form" />
+        <p class="app__footer">
+          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a> · Icon designed by <a href="https://julius.fm" target="_blank">Julius Gehrig</a>
+        </p>
       </div>
     </div>
     <div class="app__right">
-      <flipping-logos class="app__logos" />
+      <div class="app__right-inner">
+        <flipping-logos class="app__logos" />
+      </div>
     </div>
   </div>
 </template>

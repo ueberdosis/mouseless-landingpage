@@ -14,7 +14,7 @@
             type="email"
             v-model="email"
             @input="setEmail(email)"
-            placeholder="Your email"
+            placeholder="Your email address"
           >
           <button class="newsletter-form__button" :disabled="loading" type="submit">
             Subscribe
