@@ -44,8 +44,8 @@
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: $colorYellow;
-  color: $colorBlack;
+  background-color: $colorBlack;
+  color: $colorWhite;
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
   font-size: 1.35rem;
@@ -61,10 +61,10 @@ a {
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   line-height: 1.2;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     font-size: 2.5rem;
   }
 }
