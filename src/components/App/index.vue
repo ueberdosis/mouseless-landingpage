@@ -7,7 +7,7 @@
           The #1 Way to Get Productivity Superpowers
         </h1>
         <p class="app__subtitle">
-          Don't miss out! Sign up for our mailing list and be the first to know when Mouseless is released.
+          Sign up for our mailing list and be the first to know when Mouseless is released.
         </p>
         <newsletter-form class="app__form" />
         <p>
