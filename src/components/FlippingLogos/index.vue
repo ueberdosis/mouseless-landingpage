@@ -1,12 +1,8 @@
 <template>
   <div class="flipping-logos">
-    <flipping-logo
-      class="flipping-logos__item"
-      v-for="logo in renderedLogos"
-      :key="logo.id"
-      :ref="logo.id"
-      :logo="logo"
-    />
+    <div class="flipping-logos__item" v-for="logo in renderedLogos" :key="logo.id">
+      <flipping-logo :ref="logo.id" :logo="logo" />
+    </div>
   </div>
 </template>
 

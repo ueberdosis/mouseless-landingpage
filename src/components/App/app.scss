@@ -1,16 +1,48 @@
 .app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem 1.5rem;
   min-height: 100vh;
-  max-width: 42rem;
-  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+
+  &__left {
+    
+    background-color: $colorYellow;
+    color: $colorBlack;
+
+    @media screen and (min-width: 1200px) {
+      width: 50%;
+    }
+  }
+
+  &__left-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+    max-width: 38rem;
+    margin: 0 auto;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vw;
+    background-color: $colorBlack;
+
+    @media screen and (min-width: 1200px) {
+      width: 50%;
+    }
+  }
 
   &__logo {
     width: 100%;
-    max-width: 18rem;
+    max-width: 16rem;
     margin-bottom: -3rem;
   }
 
@@ -28,12 +60,21 @@
     max-width: 30rem;
     margin-bottom: 2rem;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1200px) {
       font-size: 1.2rem;
     }
   }
 
   &__form {
     max-width: 22rem;
+  }
+
+  &__logos {
+    width: 20rem;
+    max-width: 100%;
+    
+    @media screen and (min-width: 1200px) {
+      width: 25rem;
+    }
   }
 }

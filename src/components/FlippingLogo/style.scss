@@ -1,5 +1,5 @@
 .flipping-logo {
-  perspective: 100px;
+  perspective: 300px;
 
   &__inner {
     height: 0;
@@ -29,7 +29,7 @@
   
   &__card {
     z-index: 2;
-    background-color: rgba($colorWhite, 0.5);
+    background-color: rgba($colorWhite, 0.1);
   }
 
   &__front {
