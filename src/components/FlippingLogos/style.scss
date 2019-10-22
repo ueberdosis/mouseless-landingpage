@@ -3,9 +3,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: -0.5rem;
   
   &__item {
     width: 33%;
-    padding: 3%;
+    padding: 0.5rem;
   }
 }

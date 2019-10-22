@@ -11,15 +11,15 @@
           Sign up to find out when it’s ready.
         </p>
         <newsletter-form class="app__form" />
-        <p>
-          Made with ❤️ by Philipp Kühn & Hans Pagel<br />
-          Icon designed by <a href="https://julius.fm/">Julius Gehrig</a><br />
-          © 2019 <a href="https://twitter.com/_ueberdosis">überdosis</a>
+        <p class="app__footer">
+          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a> · Icon designed by <a href="https://julius.fm" target="_blank">Julius Gehrig</a>
         </p>
       </div>
     </div>
     <div class="app__right">
-      <flipping-logos class="app__logos" />
+      <div class="app__right-inner">
+        <flipping-logos class="app__logos" />
+      </div>
     </div>
   </div>
 </template>
