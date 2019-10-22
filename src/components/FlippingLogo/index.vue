@@ -33,15 +33,19 @@ export default {
     replaceWith(name) {
       this.newName = name
 
-      this.$forceNextTick(() => {
+      // this.$forceNextTick(() => {
+      //   this.isFlipping = true
+      // })
+
+      setTimeout(() => {
         this.isFlipping = true
-      })
+      }, 100)
 
       this.timeout = setTimeout(() => {
         this.name = this.newName
         this.newName = null
         this.isFlipping = false
-      }, 1000)
+      }, 700)
     },
   },
 

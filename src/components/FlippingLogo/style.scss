@@ -1,5 +1,6 @@
 .flipping-logo {
   perspective: 300px;
+  transform-style: preserve-3d;
 
   &__inner {
     height: 0;
@@ -9,7 +10,6 @@
   &__front,
   &__back,
   &__card {
-    transform-style: preserve-3d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
   }
 
   &__front {
-    transform: rotateY(0deg);
+    transform: rotateY(0deg) translateZ(1px);
   }
 
   &__back {
@@ -43,11 +43,11 @@
   &.is-flipping &__front,
   &.is-flipping &__back,
   &.is-flipping &__card {
-    transition: transform 1s $easeInOutBack;
+    transition: transform 0.5s $ease;
   }
 
   &.is-flipping &__front,
-  &.is-flipping &__card, {
+  &.is-flipping &__card {
     transform: rotateY(-180deg);
   }
 
