@@ -3,17 +3,14 @@
     <div class="app__left">
       <div class="app__left-inner">
         <img class="app__logo" src="@/assets/images/logo.png">
-        Coming Soon
         <h1 class="app__title">
           The #1 Way to Get Productivity Superpowers
         </h1>
         <p class="app__subtitle">
-          Sign up for our mailing list and be the first to know when Mouseless is released.
+          A beautiful way to become better with all the creative tools you already know and love.
+          Sign up to find out when it’s ready.
         </p>
         <newsletter-form class="app__form" />
-        <p>
-          No Spam.
-        </p>
         <p>
           Made with ❤️ by Philipp Kühn & Hans Pagel<br />
           Icon designed by <a href="https://julius.fm/">Julius Gehrig</a><br />
