@@ -4,12 +4,20 @@
       <div class="app__left-inner">
         <img class="app__logo" src="@/assets/images/logo.png">
         <h1 class="app__title">
-          Speed up your daily work
+          The #1 Way to Get Productivity Superpowers
         </h1>
         <p class="app__subtitle">
-          If you want to get productivity superpowers, sign up for the beta users mailing list!
+          Don't miss out! Sign up for our mailing list to be the first to know when Mouseless is released.
         </p>
         <newsletter-form class="app__form" />
+        <p>
+          No Spam.
+        </p>
+        <p>
+          Made with ❤️ by Philipp Kühn & Hans Pagel<br />
+          Icon designed by <a href="https://julius.fm/">Julius Gehrig</a><br />
+          © 2019 <a href="https://ueber.io">überlab</a>
+        </p>
       </div>
     </div>
     <div class="app__right">
