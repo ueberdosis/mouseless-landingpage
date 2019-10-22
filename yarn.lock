@@ -8180,10 +8180,10 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-mailchimp-subscribe@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vue-mailchimp-subscribe/-/vue-mailchimp-subscribe-1.0.1.tgz#d3f35b94ba196457e22d5f09824a5ed7d7267f2c"
-  integrity sha512-Hd5DO1tNW4Mj3fNr3iH7HcK7WABB/l+WSt/KsFcheH1EOfwCE08cynSItq1u6IgjqpY5FBihrdf+nDMbQLfmWQ==
+vue-mailchimp-subscribe@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue-mailchimp-subscribe/-/vue-mailchimp-subscribe-1.0.3.tgz#ff02c4c3ec0674839fa800586bc35fe72689aedc"
+  integrity sha512-nGyJVSuV8La+wjRvI+2O4eBk/m10srJHMvBjEce7muzHL5VGDN+jqD0LkUARuetjZCHdpxkdFmNVEh1aBF77pQ==
   dependencies:
     jsonp "^0.2.1"
     query-string "^6.8.3"
