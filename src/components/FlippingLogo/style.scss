@@ -1,0 +1,63 @@
+.flipping-logo {
+  perspective: 100px;
+
+  &__inner {
+    height: 0;
+    padding-bottom: 100%;
+  }
+  
+  &__front,
+  &__back,
+  &__card {
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__front,
+  &__back {
+    z-index: 3;
+    backface-visibility: hidden;
+  }
+  
+  &__card {
+    z-index: 2;
+    background-color: rgba($colorWhite, 0.5);
+  }
+
+  &__front {
+    transform: rotateY(0deg);
+  }
+
+  &__back {
+    transform: rotateY(180deg);
+  }
+
+  &.is-flipping &__front,
+  &.is-flipping &__back,
+  &.is-flipping &__card {
+    transition: transform 1s $easeInOutBack;
+  }
+
+  &.is-flipping &__front,
+  &.is-flipping &__card, {
+    transform: rotateY(-180deg);
+  }
+
+  &.is-flipping &__back {
+    transform: rotateY(0deg);
+  }
+
+  &__image {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+}

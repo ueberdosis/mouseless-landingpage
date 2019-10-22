@@ -8,15 +8,18 @@
       If you want to get productivity superpowers, sign up for the beta users mailing list!
     </p>
     <newsletter-form class="app__form" />
+    <flipping-logos />
   </div>
 </template>
 
 <script>
 import NewsletterForm from '@/components/NewsletterForm'
+import FlippingLogos from '@/components/FlippingLogos'
 
 export default {
   components: {
     NewsletterForm,
+    FlippingLogos,
   },
 }
 </script>
