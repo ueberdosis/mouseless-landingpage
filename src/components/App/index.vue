@@ -16,6 +16,24 @@
       <app-section show-wave>
         <demo-video />
       </app-section>
+
+      <app-section>
+        <split>
+          <template v-slot:text>
+            <h2>
+              Support for your favorite apps
+            </h2>
+            <p>
+              Wow this feature is so great. It’s amazing.
+              Wow this feature is so great. Wow this feature is so great.
+              Unbelievable.
+            </p>
+          </template>
+          <template v-slot:media>
+            <flipping-logos />
+          </template>
+        </split>
+      </app-section>
     </main>
     <footer class="app__footer">
       <app-section>
@@ -29,12 +47,16 @@
 import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
 import DemoVideo from '@/components/DemoVideo'
+import FlippingLogos from '@/components/FlippingLogos'
+import Split from '@/components/Split'
 
 export default {
   components: {
     AppSection,
     AppFooter,
     DemoVideo,
+    FlippingLogos,
+    Split,
   },
 }
 </script>
