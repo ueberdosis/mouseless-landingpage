@@ -12,7 +12,7 @@
         </p>
         <newsletter-form class="app__form" />
         <p class="app__footer">
-          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a> · Icon designed by <a href="https://julius.fm" target="_blank">Julius Gehrig</a>
+          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a> · Icon designed by <a href="https://twitter.com/juliusgehrig" target="_blank">Julius Gehrig</a>
         </p>
       </div>
     </div>
