@@ -20,8 +20,23 @@
   }
 
   &__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  &__icon {
     width: 3rem;
     height: auto;
+  }
+
+  &__name {
+    display: none;
+    
+    @media screen and (min-width: 700px) {
+      display: block;
+      width: 6.75rem;
+      margin-left: 0.5rem;
+    }
   }
 
   &__menu {

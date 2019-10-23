@@ -1,7 +1,10 @@
 <template>
   <div class="navigation">
     <div class="navigation__inner">
-      <img class="navigation__logo" src="~@/assets/images/logo.png" alt="Mouseless">
+      <div class="navigation__logo">
+        <img class="navigation__icon" src="~@/assets/images/logo.png" alt="Icon">
+        <img class="navigation__name" src="~@/assets/images/name.svg" alt="Mouseless">
+      </div>
       <ul class="navigation__menu">
         <li class="navigation__item">
           <a class="navigation__link" href="#features">
