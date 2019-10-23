@@ -43,7 +43,7 @@
         </template>
       </countdown>
       <btn class="countdown-button__button">
-        Buy for <s>$15</s> <span class="green">$15</span>
+        Buy for <s>$30</s> <span class="green">$15</span>
       </btn>
     </div>
     <div class="countdown-button__discount">
