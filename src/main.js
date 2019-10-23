@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 Vue.mixin({
   data() {
     return {
-      gumroadLink: 'https://gumroad.com/l/oyJZx',
+      gumroadLink: 'https://gumroad.com/l/xtRTg/e7qlk3g',
       downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-0.9.2-mac.dmg',
     }
   },
