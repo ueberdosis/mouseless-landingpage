@@ -7,7 +7,7 @@
           The #1 Way to Get Productivity Superpowers
         </h1>
         <p class="app__subtitle">
-          A beautiful way to become better with all the creative tools you already know and love.
+          A beautiful way to get better at all the creative tools you already know and love.
           Sign up to find out when it’s ready.
         </p>
         <newsletter-form class="app__form" />
