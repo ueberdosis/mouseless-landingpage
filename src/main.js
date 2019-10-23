@@ -10,6 +10,7 @@ Vue.mixin({
   data() {
     return {
       gumroadLink: 'https://gumroad.com/l/oyJZx',
+      downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-0.9.2-mac.dmg',
     }
   },
 })

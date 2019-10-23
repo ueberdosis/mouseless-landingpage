@@ -9,7 +9,7 @@
             </a>
           </li>
           <li>
-            <a href="#download">
+            <a :href="downloadLink" download>
               Download
             </a>
           </li>
