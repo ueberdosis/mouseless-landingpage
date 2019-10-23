@@ -34,8 +34,9 @@
     z-index: 1;
     top: -1px;
     left: 0;
-    width: 100%;
+    width: calc(100% + 1px);
     height: auto;
+    user-select: none;
   }
 
   &__inner {
@@ -50,11 +51,17 @@
     }
   }
 
-  *:not(main) > &:first-child &__inner {
-    padding-top: 0;
+  main > &:first-child &__inner {
+    padding-top: 8rem;
+
+    @media screen and (min-width: 700px) {
+      padding-top: 12rem;
+    }
   }
 
-  &--black + &--black &__inner {
+  *:not(main) > &:first-child &__inner,
+  &--black + &--black &__inner,
+  &.has-wave &__inner {
     padding-top: 0;
   }
 }

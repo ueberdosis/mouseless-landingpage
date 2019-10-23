@@ -1,16 +1,60 @@
 .countdown-button {
-  display: flex;
-  border-radius: 19px;
-  padding: 1rem;
-  background-color: rgba($colorBlack, 0.05);
+
+  display: inline-flex;
+  flex-direction: column;
+  width: 26rem;
+  max-width: 100%;
+  margin: 2rem 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__discount {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 19px;
+    padding: 0.6rem;
+    background-color: rgba($colorBlack, 0.05);
+
+    @media screen and (min-width: 500px) {
+      flex-direction: row;
+    }
+  }
 
   &__countdown {
     display: flex;
-    width: 50%;
+    margin: 0 0 0.6rem 0;
+
+    @media screen and (min-width: 500px) {
+      margin: 0 0.6rem 0 0;
+    }
+  }
+
+  &__countdown,
+  &__button {
+    width: 100%;
+
+    @media screen and (min-width: 500px) {
+      width: 50%;
+    }
   }
 
   &__item {
     flex: 1 0 auto;
+    line-height: 1.2;
   }
 
   &__value {
@@ -25,9 +69,5 @@
     text-align: center;
     font-weight: 700;
     font-size: 0.8rem;
-  }
-
-  &__button {
-    width: 50%;
   }
 }
