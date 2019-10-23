@@ -9,4 +9,3 @@
   to = "https://ueber.us17.list-manage.com"
   status = 200
   force = true
-  headers = {Host = "ueber.us17.list-manage.com"}
