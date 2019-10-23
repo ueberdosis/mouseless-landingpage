@@ -50,6 +50,14 @@
     }
   }
 
+  main > &:first-child &__inner {
+    padding-top: 8rem;
+
+    @media screen and (min-width: 700px) {
+      padding-top: 12rem;
+    }
+  }
+
   *:not(main) > &:first-child &__inner {
     padding-top: 0;
   }

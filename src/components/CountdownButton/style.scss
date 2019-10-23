@@ -1,6 +1,9 @@
 .countdown-button {
 
-  max-width: 26rem;
+  display: inline-flex;
+  flex-direction: column;
+  width: 26rem;
+  max-width: 100%;
   margin: 2rem 0;
 
   &:first-child {

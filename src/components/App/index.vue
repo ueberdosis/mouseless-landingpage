@@ -5,13 +5,15 @@
     </header>
     <main class="app__content">
       <app-section color="yellow">
-        <h1>
-          Speed up your daily work
-        </h1>
-        <p>
-          If you want to get productivity superpowers, sign up for the beta users mailing list!
-        </p>
-        <countdown-button />
+        <banner>
+          <h1>
+            The #1 Way to Get Productivity Superpowers
+          </h1>
+          <p>
+            A beautiful way to get better at all the creative tools you already know and love.
+          </p>
+          <countdown-button />
+        </banner>
       </app-section>
 
       <app-section show-wave>
@@ -146,6 +148,7 @@
 </template>
 
 <script>
+import Banner from '@/components/Banner'
 import Navigation from '@/components/Navigation'
 import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
@@ -160,6 +163,7 @@ import { Grid, GridItem } from '@/components/Grid'
 
 export default {
   components: {
+    Banner,
     Navigation,
     AppSection,
     AppFooter,
