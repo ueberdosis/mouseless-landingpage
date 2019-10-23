@@ -41,8 +41,20 @@
   &__inner {
     position: relative;
     z-index: 2;
-    padding: 5rem 1.5rem;
+    padding: 4rem 1.5rem;
     max-width: 62rem;
     margin: 0 auto;
+
+    @media screen and (min-width: 700px) {
+      padding: 8rem 3rem;
+    }
+  }
+
+  *:not(main) > &:first-child &__inner {
+    padding-top: 0;
+  }
+
+  &--black + &--black &__inner {
+    padding-top: 0;
   }
 }
