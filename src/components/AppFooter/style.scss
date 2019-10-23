@@ -1,14 +1,19 @@
 .app-footer {
-  display: flex;
-  justify-content: space-between;
   border-top: 2px solid rgba($colorWhite, 0.1);
   padding-top: 2rem;
 
-  &__navigation {
-    width: 45%;
+  ul {
+    list-style: none;
+
+    li {
+      margin: 0.4rem 0;
+
+      a {
+        &:hover {
+          color: $colorWhite;
+        }
+      }
+    }
   }
 
-  &__newsletter {
-    width: 45%;
-  }
 }
