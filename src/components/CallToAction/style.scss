@@ -1,0 +1,43 @@
+.call-to-action {
+
+  display: flex;
+  flex-direction: column;
+  background-color: $colorYellow;
+  color: rgba($colorBlack, 0.5);
+  padding: 2rem;
+  border-radius: 24px;
+  
+  @media screen and (min-width: 700px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $colorBlack;
+  }
+
+  &__media {
+    flex: 0 0 auto;
+    width: 35%;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    margin-left: -1.5rem;
+
+    @media screen and (min-width: 700px) {
+      margin: 0;
+    }
+  }
+
+  &__content {
+    flex: 1 1 auto;
+  }
+
+}

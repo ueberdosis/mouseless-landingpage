@@ -78,6 +78,18 @@
       </app-section>
 
       <app-section>
+        <call-to-action>
+          <h2>
+            Get Mouseless
+          </h2>
+          <p>
+            Increase your productivity by learning shortcuts for your favorite apps and tools.
+          </p>
+          <countdown-button />
+        </call-to-action>
+      </app-section>
+
+      <app-section>
         <h2>
           FAQ
         </h2>
@@ -143,6 +155,7 @@ import Split from '@/components/Split'
 import FeatureItem from '@/components/FeatureItem'
 import Accordion from '@/components/Accordion'
 import CountdownButton from '@/components/CountdownButton'
+import CallToAction from '@/components/CallToAction'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
@@ -156,6 +169,7 @@ export default {
     FeatureItem,
     CountdownButton,
     Accordion,
+    CallToAction,
     Grid,
     GridItem,
   },
