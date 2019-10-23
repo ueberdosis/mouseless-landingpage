@@ -34,25 +34,6 @@
     }
   }
 
-  // &__right {
-  //   display: flex;
-  //   align-items: center;
-  //   padding: 3rem 1.5rem;
-  //   background-color: $colorBlack;
-    
-  //   @media screen and (min-width: 1200px) {
-  //     justify-content: center;
-  //     padding: 10vw;
-  //     width: 50%;
-  //   }
-  // }
-
-  // &__right-inner {
-  //   width: 100%;
-  //   max-width: 38rem;
-  //   margin: 0 auto;
-  // }
-
   &__logo {
     width: 14rem;
     margin-left: -3.2rem;
@@ -83,10 +64,10 @@
   &__logos {
     width: 20rem;
     max-width: 100%;
+    margin: 0 auto;
     
     @media screen and (min-width: 1200px) {
       width: 25rem;
-      margin: 0 auto;
     }
   }
 
