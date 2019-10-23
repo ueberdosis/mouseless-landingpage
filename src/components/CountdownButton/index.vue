@@ -10,7 +10,7 @@
         <template v-slot="{ days, hours, minutes, seconds }">
           <div class="countdown-button__item">
             <div class="countdown-button__value">
-              {{ days }}
+              {{ days | value }}
             </div>
             <div class="countdown-button__label">
               Days
@@ -18,7 +18,7 @@
           </div>
           <div class="countdown-button__item">
             <div class="countdown-button__value">
-              {{ hours }}
+              {{ hours | value }}
             </div>
             <div class="countdown-button__label">
               Hrs
@@ -26,7 +26,7 @@
           </div>
           <div class="countdown-button__item">
             <div class="countdown-button__value">
-              {{ minutes }}
+              {{ minutes | value }}
             </div>
             <div class="countdown-button__label">
               Mins
@@ -34,7 +34,7 @@
           </div>
           <div class="countdown-button__item">
             <div class="countdown-button__value">
-              {{ seconds }}
+              {{ seconds | value }}
             </div>
             <div class="countdown-button__label">
               Secs
@@ -60,6 +60,12 @@ export default {
   components: {
     Countdown,
     Btn,
+  },
+
+  filters: {
+    value(value) {
+      return value.toString().padStart(2, 0)
+    },
   },
 
   data() {
