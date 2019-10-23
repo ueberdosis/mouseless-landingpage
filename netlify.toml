@@ -1,11 +1,4 @@
-# example netlify.toml
 [build]
   command = "yarn run build"
   functions = "functions"
   publish = "dist"
-
-[[redirects]]
-  from = "/mailing"
-  to = "https://ueber.us17.list-manage.com"
-  status = 200
-  force = true
