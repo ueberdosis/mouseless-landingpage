@@ -1,6 +1,6 @@
 <template>
   <div class="app-footer">
-    <div class="app-footer__navigation">
+    <div class="app-footer__navigation small">
       <ul>
         <li>
           <a href="#features">
@@ -24,7 +24,13 @@
         </li>
       </ul>
     </div>
-    <div class="app-footer__newsletter">
+    <div class="app-footer__newsletter small">
+      <h3>
+        Be the first to know
+      </h3>
+      <p>
+        We'll inform you about new apps and deals. No spam, we promise.
+      </p>
       <newsletter-form />
     </div>
   </div>
