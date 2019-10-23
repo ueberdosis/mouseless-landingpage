@@ -24,11 +24,7 @@
   border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 8px;
-  background-color: rgba($colorBlack, 0.08);
-
-  &:hover {
-    background-color: rgba($colorBlack, 0.08);
-  }
+  background-color: $colorYellow;
 }
 
 ::-webkit-scrollbar-button {
@@ -50,6 +46,8 @@ body {
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
   font-size: 1.35rem;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 p {
