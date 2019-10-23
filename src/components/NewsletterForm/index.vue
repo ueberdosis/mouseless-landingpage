@@ -1,7 +1,6 @@
 <template>
   <mailchimp-subscribe
-    login="ueber"
-    data-center="us17"
+    url="https://ueber.us17.list-manage.com/subscribe/post-json"
     user-id="1bc6d9d915dfd1f9d0950399d"
     list-id="603ad75049"
     @success="onSuccess"
@@ -20,9 +19,7 @@
             Subscribe
           </button>
         </div>
-        <div class="newsletter-form__error" v-if="error">
-          {{ error }}
-        </div>
+        <div class="newsletter-form__error" v-html="error" v-if="error" />
         <div class="newsletter-form__success" v-if="success">
           To complete the subscription process, please click the link in the email we just sent you.
         </div>
