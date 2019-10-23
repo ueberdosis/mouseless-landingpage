@@ -1,11 +1,13 @@
 <template>
   <div class="feature-item">
-    <h3>
+    <div class="feature-item__header">
       <div class="feature-item__icon-wrapper" v-if="icon">
         <icon :name="icon" />
       </div>
-      {{ title }}
-    </h3>
+      <h3 class="feature-item__title">
+        {{ title }}
+      </h3>
+    </div>
     <p class="small">
       <slot />
     </p>
