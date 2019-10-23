@@ -4,7 +4,7 @@
       <img class="navigation__logo" src="~@/assets/images/logo.png" alt="Mouseless">
       <ul class="navigation__menu">
         <li class="navigation__item">
-          <a class="navigation__link" href="#">
+          <a class="navigation__link" href="#features">
             Features
           </a>
         </li>

@@ -30,19 +30,25 @@
   }
 
   &__item {
-    margin-left: 1.25rem;
+    margin-left: 0.5rem;
 
     @media screen and (min-width: 700px) {
-      margin-left: 1.5rem;
+      margin-left: 1rem;
     }
   }
 
   &__link {
+    padding: 0.4rem 0.6rem;
+    border-radius: 9px;
     font-size: 1rem;
     font-weight: 700;
 
     @media screen and (min-width: 700px) {
       font-size: 1.15rem;
+    }
+
+    &:hover {
+      background-color: rgba($colorBlack, 0.05)
     }
   }
 }

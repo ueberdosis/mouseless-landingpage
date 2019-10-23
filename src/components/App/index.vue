@@ -20,7 +20,7 @@
         <demo-video />
       </app-section>
 
-      <app-section>
+      <app-section id="features">
         <split>
           <template v-slot:text>
             <h2>
