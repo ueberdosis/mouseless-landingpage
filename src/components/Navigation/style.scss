@@ -1,0 +1,48 @@
+.navigation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: $colorBlack;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 62rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+
+    @media screen and (min-width: 700px) {
+      padding: 2rem 3rem;
+    }
+  }
+
+  &__logo {
+    width: 3rem;
+    height: auto;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    margin-left: 1.25rem;
+
+    @media screen and (min-width: 700px) {
+      margin-left: 1.5rem;
+    }
+  }
+
+  &__link {
+    font-size: 1rem;
+    font-weight: 700;
+
+    @media screen and (min-width: 700px) {
+      font-size: 1.15rem;
+    }
+  }
+}

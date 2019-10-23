@@ -1,7 +1,13 @@
 .app {
   
   &__header {
+    position: relative;
+    z-index: 2;
+  }
 
+  &__content {
+    position: relative;
+    z-index: 1;
   }
 
   &__footer {

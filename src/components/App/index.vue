@@ -1,9 +1,9 @@
 <template>
   <div class="app">
     <header class="app__header">
-      navi
+      <navigation />
     </header>
-    <main>
+    <main class="app__content">
       <app-section color="yellow">
         <h1>
           Speed up your daily work
@@ -133,6 +133,7 @@
 </template>
 
 <script>
+import Navigation from '@/components/Navigation'
 import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
 import DemoVideo from '@/components/DemoVideo'
@@ -144,6 +145,7 @@ import { Grid, GridItem } from '@/components/Grid'
 
 export default {
   components: {
+    Navigation,
     AppSection,
     AppFooter,
     DemoVideo,
