@@ -75,6 +75,54 @@
           </grid-item>
         </grid>
       </app-section>
+
+      <app-section>
+        <h2>
+          FAQ
+        </h2>
+        <grid :options="{ medium: 'wide'}">
+          <grid-item :options="{ medium: '6/12'}">
+            <accordion title="Is there a Windows app?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+            <accordion title="What how why whatever?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+            <accordion title="I’m missing app XYZ. What to do?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+          </grid-item>
+          <grid-item :options="{ medium: '6/12'}">
+            <accordion title="Is there a Windows app?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+            <accordion title="What how why whatever?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+            <accordion title="I’m missing app XYZ. What to do?">
+              <p>
+                Wow this feature is so great. It’s amazing.
+                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+              </p>
+            </accordion>
+          </grid-item>
+        </grid>
+      </app-section>
     </main>
     <footer class="app__footer">
       <app-section>
@@ -91,6 +139,7 @@ import DemoVideo from '@/components/DemoVideo'
 import FlippingLogos from '@/components/FlippingLogos'
 import Split from '@/components/Split'
 import FeatureItem from '@/components/FeatureItem'
+import Accordion from '@/components/Accordion'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
@@ -101,6 +150,7 @@ export default {
     FlippingLogos,
     Split,
     FeatureItem,
+    Accordion,
     Grid,
     GridItem,
   },
