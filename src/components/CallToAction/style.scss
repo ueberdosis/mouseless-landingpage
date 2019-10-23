@@ -7,7 +7,7 @@
   padding: 2rem;
   border-radius: 24px;
   
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 900px) {
     flex-direction: row-reverse;
     align-items: center;
     padding: 5rem;
@@ -31,7 +31,7 @@
     height: auto;
     margin-left: -1.5rem;
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 900px) {
       margin: 0;
     }
   }
