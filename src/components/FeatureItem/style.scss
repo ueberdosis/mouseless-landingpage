@@ -1,0 +1,15 @@
+.feature-item {
+
+  &__icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba($colorYellow, 0.2);
+    color: $colorYellow;
+  }
+
+}

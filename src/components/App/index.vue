@@ -52,6 +52,29 @@
           </template>
         </split>
       </app-section>
+
+      <app-section>
+        <grid :options="{ medium: 'wide'}">
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="1000+ shortcuts" icon="arrow-down">
+              Wow this feature is so great. It’s amazing.
+              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            </feature-item>
+          </grid-item>
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="1000+ shortcuts" icon="arrow-down">
+              Wow this feature is so great. It’s amazing.
+              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            </feature-item>
+          </grid-item>
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="1000+ shortcuts" icon="arrow-down">
+              Wow this feature is so great. It’s amazing.
+              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            </feature-item>
+          </grid-item>
+        </grid>
+      </app-section>
     </main>
     <footer class="app__footer">
       <app-section>
@@ -67,6 +90,8 @@ import AppFooter from '@/components/AppFooter'
 import DemoVideo from '@/components/DemoVideo'
 import FlippingLogos from '@/components/FlippingLogos'
 import Split from '@/components/Split'
+import FeatureItem from '@/components/FeatureItem'
+import { Grid, GridItem } from '@/components/Grid'
 
 export default {
   components: {
@@ -75,6 +100,9 @@ export default {
     DemoVideo,
     FlippingLogos,
     Split,
+    FeatureItem,
+    Grid,
+    GridItem,
   },
 }
 </script>
