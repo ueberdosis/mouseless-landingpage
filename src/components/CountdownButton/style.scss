@@ -6,9 +6,28 @@
 
   &__countdown {
     display: flex;
+    width: 50%;
+  }
+
+  &__item {
+    flex: 1 0 auto;
+  }
+
+  &__value {
+    text-align: center;
+    font-feature-settings: 'tnum' 1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $colorBlack;
+  }
+
+  &__label {
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8rem;
   }
 
   &__button {
-
+    width: 50%;
   }
 }

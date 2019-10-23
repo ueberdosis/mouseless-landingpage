@@ -8,16 +8,36 @@
     >
       <template v-slot="{ days, hours, minutes, seconds }">
         <div class="countdown-button__item">
-          {{ days }}
+          <div class="countdown-button__value">
+            {{ days }}
+          </div>
+          <div class="countdown-button__label">
+            Days
+          </div>
         </div>
         <div class="countdown-button__item">
-          {{ hours }}
+          <div class="countdown-button__value">
+            {{ hours }}
+          </div>
+          <div class="countdown-button__label">
+            Hrs
+          </div>
         </div>
         <div class="countdown-button__item">
-          {{ minutes }}
+          <div class="countdown-button__value">
+            {{ minutes }}
+          </div>
+          <div class="countdown-button__label">
+            Mins
+          </div>
         </div>
         <div class="countdown-button__item">
-          {{ seconds }}
+          <div class="countdown-button__value">
+            {{ seconds }}
+          </div>
+          <div class="countdown-button__label">
+            Secs
+          </div>
         </div>
       </template>
     </countdown>
