@@ -13,7 +13,7 @@
     "uuid": "^3.3.3",
     "vue": "^2.6.10",
     "vue-force-next-tick": "^1.0.3",
-    "vue-mailchimp-subscribe": "^1.0.4",
+    "vue-mailchimp-subscribe": "^1.0.6",
     "vue-router": "^3.0.6"
   },
   "devDependencies": {
