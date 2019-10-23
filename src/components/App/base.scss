@@ -44,6 +44,7 @@
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: $colorBlack;
   color: $colorWhite;
   line-height: 1.4;
@@ -61,7 +62,7 @@ a {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
 
   @media screen and (max-width: 1200px) {
