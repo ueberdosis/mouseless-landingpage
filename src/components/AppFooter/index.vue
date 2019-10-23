@@ -14,7 +14,7 @@
             </a>
           </li>
           <li>
-            <a href="#buy">
+            <a :href="gumroadLink" target="_blank">
               Buy
             </a>
           </li>

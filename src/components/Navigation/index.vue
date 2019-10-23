@@ -14,7 +14,7 @@
           </a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">
+          <a class="navigation__link" :href="gumroadLink" target="_blank">
             Buy
           </a>
         </li>

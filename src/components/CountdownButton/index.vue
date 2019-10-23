@@ -42,7 +42,7 @@
           </div>
         </template>
       </countdown>
-      <btn class="countdown-button__button">
+      <btn :href="gumroadLink" target="_blank" class="countdown-button__button">
         Buy for <s>$30</s> <span class="green">$15</span>
       </btn>
     </div>

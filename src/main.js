@@ -6,6 +6,14 @@ import App from '@/components/App'
 Vue.use(VueForceNextTick)
 Vue.config.productionTip = false
 
+Vue.mixin({
+  data() {
+    return {
+      gumroadLink: 'https://gumroad.com/l/oyJZx',
+    }
+  },
+})
+
 new Vue({
   // router,
   render: h => h(App),
