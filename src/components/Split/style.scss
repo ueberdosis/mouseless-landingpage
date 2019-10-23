@@ -11,5 +11,9 @@
     &__media {
       width: 35%;
     }
+
+    &.is-flipped {
+      flex-direction: row-reverse;
+    }
   }
 }

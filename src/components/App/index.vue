@@ -34,6 +34,24 @@
           </template>
         </split>
       </app-section>
+
+      <app-section>
+        <split flipped>
+          <template v-slot:text>
+            <h2>
+              Support for your favorite apps
+            </h2>
+            <p>
+              Wow this feature is so great. It’s amazing.
+              Wow this feature is so great. Wow this feature is so great.
+              Unbelievable.
+            </p>
+          </template>
+          <template v-slot:media>
+            <flipping-logos />
+          </template>
+        </split>
+      </app-section>
     </main>
     <footer class="app__footer">
       <app-section>
@@ -63,4 +81,4 @@ export default {
 
 <style lang="scss" src="./fonts.scss"></style>
 <style lang="scss" src="./base.scss"></style>
-<style lang="scss" src="./app.scss" scoped></style>
+<style lang="scss" src="./app.scss"></style>

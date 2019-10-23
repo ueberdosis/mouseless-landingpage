@@ -3,12 +3,30 @@
 
   &--black {
     background-color: $colorBlack;
-    color: $colorWhite;
+    color: rgba($colorWhite, 0.5);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $colorWhite;
+    }
   }
 
   &--yellow {
     background-color: $colorYellow;
-    color: $colorBlack;
+    color: rgba($colorBlack, 0.5);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $colorBlack;
+    }
   }
 
   &__wave {
