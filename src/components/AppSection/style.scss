@@ -34,8 +34,9 @@
     z-index: 1;
     top: -1px;
     left: 0;
-    width: 100%;
+    width: calc(100% + 1px);
     height: auto;
+    user-select: none;
   }
 
   &__inner {
@@ -58,11 +59,9 @@
     }
   }
 
-  *:not(main) > &:first-child &__inner {
-    padding-top: 0;
-  }
-
-  &--black + &--black &__inner {
+  *:not(main) > &:first-child &__inner,
+  &--black + &--black &__inner,
+  &.has-wave &__inner {
     padding-top: 0;
   }
 }

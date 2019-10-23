@@ -1,5 +1,5 @@
 <template>
-  <section :class="['app-section', `app-section--${color}`]">
+  <section :class="['app-section', `app-section--${color}`, { 'has-wave': showWave }]">
     <img
       class="app-section__wave"
       src="~@/assets/images/wave.svg"
