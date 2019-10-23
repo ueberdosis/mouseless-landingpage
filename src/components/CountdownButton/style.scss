@@ -1,16 +1,37 @@
 .countdown-button {
   display: flex;
+  max-width: 26rem;
+  flex-direction: column;
+  align-items: center;
   border-radius: 19px;
-  padding: 1rem;
+  padding: 0.6rem;
   background-color: rgba($colorBlack, 0.05);
+
+  @media screen and (min-width: 500px) {
+    flex-direction: row;
+  }
 
   &__countdown {
     display: flex;
-    width: 50%;
+    margin: 0 0 0.6rem 0;
+
+    @media screen and (min-width: 500px) {
+      margin: 0 0.6rem 0 0;
+    }
+  }
+
+  &__countdown,
+  &__button {
+    width: 100%;
+
+    @media screen and (min-width: 500px) {
+      width: 50%;
+    }
   }
 
   &__item {
     flex: 1 0 auto;
+    line-height: 1.2;
   }
 
   &__value {
@@ -25,9 +46,5 @@
     text-align: center;
     font-weight: 700;
     font-size: 0.8rem;
-  }
-
-  &__button {
-    width: 50%;
   }
 }

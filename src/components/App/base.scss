@@ -131,6 +131,10 @@ button:not([disabled]) {
   cursor: pointer;
 }
 
+.green {
+  color: $colorGreen;
+}
+
 .truncate {
   white-space: nowrap;
   overflow: hidden;
