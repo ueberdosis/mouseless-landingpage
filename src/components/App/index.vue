@@ -11,6 +11,7 @@
         <p>
           If you want to get productivity superpowers, sign up for the beta users mailing list!
         </p>
+        <countdown-button />
       </app-section>
 
       <app-section show-wave>
@@ -141,6 +142,7 @@ import FlippingLogos from '@/components/FlippingLogos'
 import Split from '@/components/Split'
 import FeatureItem from '@/components/FeatureItem'
 import Accordion from '@/components/Accordion'
+import CountdownButton from '@/components/CountdownButton'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
@@ -152,6 +154,7 @@ export default {
     FlippingLogos,
     Split,
     FeatureItem,
+    CountdownButton,
     Accordion,
     Grid,
     GridItem,

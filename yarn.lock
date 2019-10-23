@@ -705,6 +705,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@chenfengyuan/vue-countdown@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-countdown/-/vue-countdown-1.1.3.tgz#075ca91e6ac732bfb670296bb6c3a115fc3b5064"
+  integrity sha512-G6xvrEwwfJK2PtNGfiz0HMarDeubv7AjjDEASktoBIzfbBpK2B84lcMZckA/BojzojKM2GOAqqNU+Cs14bIxcA==
+
 "@hapi/address@2.x.x":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.2.tgz#1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
@@ -8195,6 +8200,11 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
+
+vue-countdown@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vue-countdown/-/vue-countdown-1.0.4.tgz#cb2baa4a99644ba6ebb33a9b688cd4138fcddc11"
+  integrity sha1-yyuqSplkS6brszqbaIzUE4/N3BE=
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"

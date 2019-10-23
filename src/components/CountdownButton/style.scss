@@ -1,0 +1,14 @@
+.countdown-button {
+  display: flex;
+  border-radius: 19px;
+  padding: 1rem;
+  background-color: rgba($colorBlack, 0.05);
+
+  &__countdown {
+    display: flex;
+  }
+
+  &__button {
+
+  }
+}
