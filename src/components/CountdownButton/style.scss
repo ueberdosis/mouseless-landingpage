@@ -2,9 +2,12 @@
 
   display: inline-flex;
   flex-direction: column;
-  width: 26rem;
   max-width: 100%;
   margin: 2rem 0;
+  
+  &.has-discount {
+    width: 26rem;
+  }
 
   &:first-child {
     margin-top: 0;
@@ -25,13 +28,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 19px;
-    padding: 0.6rem;
-    background-color: rgba($colorBlack, 0.05);
-
+  
     @media screen and (min-width: 500px) {
       flex-direction: row;
     }
+  }
+
+  &.has-discount &__inner {
+    border-radius: 19px;
+    padding: 0.6rem;
+    background-color: rgba($colorBlack, 0.05);
   }
 
   &__countdown {
@@ -50,6 +56,10 @@
     @media screen and (min-width: 500px) {
       width: 50%;
     }
+  }
+
+  &__button {
+    flex: 1 1 auto;
   }
 
   &__item {
