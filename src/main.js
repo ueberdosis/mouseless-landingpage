@@ -8,10 +8,10 @@ import discountDates from './discountDates'
 Vue.config.productionTip = false
 
 const now = moment.utc()
-const dateParseFormat = 'DD.MM.YYYY hh:mm:ss'
+const dateFormat = 'YYYY-MM-DD hh:mm:ss'
 const formattedDiscountDates = collect(discountDates)
   .map(item => {
-    const end = moment(item.date, dateParseFormat).endOf('day').utc()
+    const end = moment(item.date, dateFormat).endOf('day').utc()
     const start = moment(end).subtract(1, 'day')
     const isActive = moment(now).isBetween(start, end)
     const countdown = isActive
@@ -20,9 +20,9 @@ const formattedDiscountDates = collect(discountDates)
 
     return {
       ...item,
-      now: now.format('YYYY-MM-DD hh:mm:ss'),
-      start: start.format('YYYY-MM-DD hh:mm:ss'),
-      end: end.format('YYYY-MM-DD hh:mm:ss'),
+      now: now.format(dateFormat),
+      start: start.format(dateFormat),
+      end: end.format(dateFormat),
       isActive,
       countdown,
     }
