@@ -1,6 +1,6 @@
 export default [
   {
-    date: '25.10.2019',
+    date: '24.10.2019',
     title: 'Launch Day',
   },
   {

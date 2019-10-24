@@ -83,10 +83,9 @@ export default {
     const dateParseFormat = 'DD.MM.YYYY hh:mm:ss'
 
     return {
-      date: now.format('DD.MM.YY hh:mm:ss'),
       formattedDates: collect(dates)
         .map(item => {
-          const end = moment(item.date, dateParseFormat).utc()
+          const end = moment(item.date, dateParseFormat).endOf('day').utc()
           const start = moment(end).subtract(1, 'day')
           const isActive = moment(now).isBetween(start, end)
           const countdown = isActive
@@ -95,6 +94,7 @@ export default {
 
           return {
             ...item,
+            now: now.format('YYYY-MM-DD hh:mm:ss'),
             start: start.format('YYYY-MM-DD hh:mm:ss'),
             end: end.format('YYYY-MM-DD hh:mm:ss'),
             isActive,
