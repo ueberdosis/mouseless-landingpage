@@ -60,10 +60,7 @@
 </template>
 
 <script>
-import moment from 'moment'
-import collect from 'collect.js'
 import Countdown from '@chenfengyuan/vue-countdown'
-import dates from './dates'
 import Btn from '@/components/Btn'
 
 export default {
@@ -75,40 +72,6 @@ export default {
   filters: {
     value(value) {
       return value.toString().padStart(2, 0)
-    },
-  },
-
-  data() {
-    const now = moment.utc()
-    const dateParseFormat = 'DD.MM.YYYY hh:mm:ss'
-
-    return {
-      formattedDates: collect(dates)
-        .map(item => {
-          const end = moment(item.date, dateParseFormat).endOf('day').utc()
-          const start = moment(end).subtract(1, 'day')
-          const isActive = moment(now).isBetween(start, end)
-          const countdown = isActive
-            ? moment.duration(end.diff(now)).asMilliseconds()
-            : 0
-
-          return {
-            ...item,
-            now: now.format('YYYY-MM-DD hh:mm:ss'),
-            start: start.format('YYYY-MM-DD hh:mm:ss'),
-            end: end.format('YYYY-MM-DD hh:mm:ss'),
-            isActive,
-            countdown,
-          }
-        })
-        .sortBy('end')
-        .toArray(),
-    }
-  },
-
-  computed: {
-    activeDiscount() {
-      return this.formattedDates.find(item => item.isActive)
     },
   },
 }
