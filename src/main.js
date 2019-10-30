@@ -41,10 +41,10 @@ Vue.mixin({
   computed: {
     gumroadLink() {
       if (this.activeDiscount) {
-        return 'https://gumroad.com/l/xtRTg/e7qlk3g'
+        return 'https://gum.co/dKPMN/e7qlk3g'
       }
 
-      return 'https://gumroad.com/l/xtRTg'
+      return 'https://gum.co/dKPMN'
     },
   },
 })
