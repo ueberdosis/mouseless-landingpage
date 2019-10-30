@@ -117,7 +117,8 @@
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
             <feature-item title="Offline Support" icon="offline">
-              No Wi-fi – no problem. Mouseless runs just as smoothly in a rustic cabin as on a plane.
+              No Wi-fi – no problem.
+              Mouseless runs just as smoothly in a rustic cabin as on a plane.
             </feature-item>
           </grid-item>
         </grid>
@@ -166,12 +167,18 @@
             </accordion>
             <accordion title="How long does it take before I see results?">
               <p>
-                The amount of keyboard shortcuts for each app or tool varies, so there cannot possibly be a general answer to that. Of course, individual learning behavior affects the result as well. Try to establish a daily study routine, put your knowledge into practice, and you should see results rather quickly.
+                The amount of keyboard shortcuts for each app or tool varies,
+                so there cannot possibly be a general answer to that. Of course,
+                individual learning behavior affects the result as well.
+                Try to establish a daily study routine, put your knowledge into
+                practice, and you should see results rather quickly.
               </p>
             </accordion>
             <accordion title="My country's keyboard layout is not supported. Now what?">
               <p>
-                Send us more details, please. As of now, Mouseless does not support every single keyboard layout known to man, but hey: goals!
+                Send us more details, please.
+                As of now, Mouseless does not support every single keyboard layout known to man,
+                but hey: goals!
               </p>
             </accordion>
           </grid-item>
