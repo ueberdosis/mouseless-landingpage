@@ -33,7 +33,7 @@
             </p>
           </template>
           <template v-slot:media>
-            <flipping-logos />
+            <img class="rounded-image" src="~@/assets/images/keys.png" alt="">
           </template>
         </split>
       </app-section>
@@ -50,7 +50,7 @@
             </p>
           </template>
           <template v-slot:media>
-            <flipping-logos />
+            <img class="rounded-image" src="~@/assets/images/keys.png" alt="">
           </template>
         </split>
       </app-section>
@@ -66,7 +66,7 @@
             </p>
           </template>
           <template v-slot:media>
-            <flipping-logos />
+            <img class="rounded-image" src="~@/assets/images/menubar.png" alt="">
           </template>
         </split>
       </app-section>
@@ -103,7 +103,7 @@
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
             <feature-item title="Offline Support" icon="arrow-down">
-              No Wi-fi – no problem. Mouseless runs just as smoothe in a rustic cabin as on a plane.
+              No Wi-fi – no problem. Mouseless runs just as smoothe in a rustic cabin as on a plane.
             </feature-item>
           </grid-item>
         </grid>
