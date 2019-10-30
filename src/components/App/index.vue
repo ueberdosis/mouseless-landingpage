@@ -104,18 +104,18 @@
       <app-section>
         <grid :options="{ medium: 'wide'}">
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="1.000+ Shortcuts" icon="arrow-down">
+            <feature-item title="1.000+ Shortcuts" icon="database">
               With our database you've got more than 1.000 keyboard commands at your fingertips,
               subdivided by app and category.
             </feature-item>
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="Keyboard Optimization" icon="arrow-down">
+            <feature-item title="Keyboard Optimization" icon="globe">
               Mouseless translates shortcuts to the language requirements of your keyboard.
             </feature-item>
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="Offline Support" icon="arrow-down">
+            <feature-item title="Offline Support" icon="offline">
               No Wi-fi – no problem. Mouseless runs just as smoothe in a rustic cabin as on a plane.
             </feature-item>
           </grid-item>

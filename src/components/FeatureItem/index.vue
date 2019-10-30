@@ -2,7 +2,7 @@
   <div class="feature-item">
     <div class="feature-item__header">
       <div class="feature-item__icon-wrapper" v-if="icon">
-        <icon :name="icon" />
+        <icon class="feature-item__icon" :name="icon" />
       </div>
       <h3 class="feature-item__title">
         {{ title }}
