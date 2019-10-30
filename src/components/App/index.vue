@@ -7,10 +7,11 @@
       <app-section color="yellow">
         <banner>
           <h1>
-            The #1 Way to Get Productivity Superpowers
+            Unleash your keyboard's superpower
           </h1>
           <p>
-            A beautiful way to get better at all the creative tools you already know and love.
+            Wading through shortcuts, and it's too hard to remember any?
+            Get those keystrokes ingrained in your muscle memory for good.
           </p>
           <countdown-button />
         </banner>
@@ -24,12 +25,11 @@
         <split>
           <template v-slot:text>
             <h2>
-              Support for your favorite apps
+              Interactive Training
             </h2>
             <p>
-              Wow this feature is so great. It’s amazing.
-              Wow this feature is so great. Wow this feature is so great.
-              Unbelievable.
+              A session takes less than 5 minutes and covers about 10 shortcuts.
+              Apply your new skills right away to reinforce your learning experience.
             </p>
           </template>
           <template v-slot:media>
@@ -42,12 +42,44 @@
         <split flipped>
           <template v-slot:text>
             <h2>
-              Support for your favorite apps
+              Boost your productivity
             </h2>
             <p>
-              Wow this feature is so great. It’s amazing.
-              Wow this feature is so great. Wow this feature is so great.
-              Unbelievable.
+              Stop chasing your mouse and save up to 8 days a year.
+              Surely, you'll find something better to do with your time.
+            </p>
+          </template>
+          <template v-slot:media>
+            <flipping-logos />
+          </template>
+        </split>
+      </app-section>
+
+      <app-section id="features">
+        <split>
+          <template v-slot:text>
+            <h2>
+              Need to cheat?
+            </h2>
+            <p>
+              Browse our database to look up a shortcut within your current app.
+            </p>
+          </template>
+          <template v-slot:media>
+            <flipping-logos />
+          </template>
+        </split>
+      </app-section>
+
+      <app-section>
+        <split flipped>
+          <template v-slot:text>
+            <h2>
+              All your favorites in one place
+            </h2>
+            <p>
+              Cover the basics with shortcuts for macOS or let your fingers fly
+              in one of the 12 apps and tools you already love.
             </p>
           </template>
           <template v-slot:media>
@@ -59,21 +91,19 @@
       <app-section>
         <grid :options="{ medium: 'wide'}">
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="1000+ shortcuts" icon="arrow-down">
-              Wow this feature is so great. It’s amazing.
-              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            <feature-item title="1.000+ Shortcuts" icon="arrow-down">
+              With our database you've got more than 1.000 keyboard commands at your fingertips,
+              subdivided by app and category.
             </feature-item>
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="1000+ shortcuts" icon="arrow-down">
-              Wow this feature is so great. It’s amazing.
-              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            <feature-item title="Keyboard Optimization" icon="arrow-down">
+              Mouseless translates shortcuts to the language requirements of your keyboard.
             </feature-item>
           </grid-item>
           <grid-item :options="{ medium: '4/12'}">
-            <feature-item title="1000+ shortcuts" icon="arrow-down">
-              Wow this feature is so great. It’s amazing.
-              Wow this feature is so great. Wow this feature is so great. Unbelievable.
+            <feature-item title="Offline Support" icon="arrow-down">
+              No Wi-fi – no problem. Mouseless runs just as smoothe in a rustic cabin as on a plane.
             </feature-item>
           </grid-item>
         </grid>
@@ -82,10 +112,10 @@
       <app-section>
         <call-to-action>
           <h2>
-            Get Mouseless
+            Get it done faster
           </h2>
           <p>
-            Increase your productivity by learning shortcuts for your favorite apps and tools.
+            Master all of the magic keystrokes for your favorite apps & tools.
           </p>
           <countdown-button />
         </call-to-action>
@@ -99,40 +129,40 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="Is there a Windows app?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                Nope, not for now. But give us a shout and we'll consider it.
               </p>
             </accordion>
-            <accordion title="What how why whatever?">
+            <accordion title="Something's wrong. How do I get in touch?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                Drop us a line, we'll be happy to help!
               </p>
             </accordion>
-            <accordion title="I’m missing app XYZ. What to do?">
+            <accordion title="I can't find my favorite app. Will you update Mouseless?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                Hm, we might. Get in touch so we know how to improve!
               </p>
             </accordion>
           </grid-item>
           <grid-item :options="{ medium: '6/12'}">
-            <accordion title="Is there a Windows app?">
+            <accordion title="Can I ditch my mouse for good?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                Noooooo! Mouseless is not about getting rid of your mouse –
+                you'll always need it! But you'll spend less time with mouse clicking.
               </p>
             </accordion>
-            <accordion title="What how why whatever?">
+            <accordion title="How long does it take before I see results?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                The amount of keayboard shortcuts for each app or tool varies,
+                so there cannot possibly be a general answer to that. Of course,
+                individual learning behaviour affects the result as well.
+                Try to establish a daily study routine, put your knowledge into practice,
+                and you should see results rather quickly.
               </p>
             </accordion>
-            <accordion title="I’m missing app XYZ. What to do?">
+            <accordion title="My country's keyboard layout is not supported. Now what?">
               <p>
-                Wow this feature is so great. It’s amazing.
-                Wow this feature is so great. Wow this feature is so great. Unbelievable.
+                Send us more details, please. As of now,
+                Mouseless does not support every single keyboard layout known to man but hey: goals!
               </p>
             </accordion>
           </grid-item>

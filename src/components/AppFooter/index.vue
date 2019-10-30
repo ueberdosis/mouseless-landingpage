@@ -33,7 +33,9 @@
           Be the first to know
         </h3>
         <p>
-          We'll inform you about new apps and deals. No spam, we promise.
+          We'll inform you about new apps and deals.
+          <br>
+          No spam, we promise.
         </p>
         <newsletter-form />
       </grid-item>
