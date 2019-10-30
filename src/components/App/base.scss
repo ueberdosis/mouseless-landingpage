@@ -180,6 +180,14 @@ button:not([disabled]) {
   height: auto;
 }
 
+.brain {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1em;
+  width: auto;
+  margin: 0 0.8rem;
+}
+
 @import 'node_modules/gridilydidily/gridilydidily.scss';
 
 .grid__item:empty {

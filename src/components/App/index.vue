@@ -62,7 +62,8 @@
             in bite-sized exercises to you.
           </p>
           <p>
-            Interactive drills <span class="yellow">train the muscle-memory</span> required
+            Interactive drills <span class="yellow">train the muscle-memory</span>
+            <img class="brain" src="@/assets/images/brain.svg" alt="">required
             to have your fingers flying across the keyboard.
           </p>
         </blob-text>
