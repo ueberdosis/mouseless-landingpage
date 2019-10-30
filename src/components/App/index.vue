@@ -55,7 +55,20 @@
         </split>
       </app-section>
 
-      <app-section id="features">
+      <app-section>
+        <blob-text>
+          <p>
+            <span class="yellow">Mouseless</span> caters shortcuts for your favorite apps
+            in bite-sized exercises to you.
+          </p>
+          <p>
+            Interactive drills <span class="yellow">train the muscle-memory</span> required
+            to have your fingers flying across the keyboard.
+          </p>
+        </blob-text>
+      </app-section>
+
+      <app-section>
         <split>
           <template v-slot:text>
             <h2>
@@ -152,7 +165,7 @@
             </accordion>
             <accordion title="How long does it take before I see results?">
               <p>
-                The amount of keayboard shortcuts for each app or tool varies,
+                The amount of keyboard shortcuts for each app or tool varies,
                 so there cannot possibly be a general answer to that. Of course,
                 individual learning behaviour affects the result as well.
                 Try to establish a daily study routine, put your knowledge into practice,
@@ -189,6 +202,7 @@ import FeatureItem from '@/components/FeatureItem'
 import Accordion from '@/components/Accordion'
 import CountdownButton from '@/components/CountdownButton'
 import CallToAction from '@/components/CallToAction'
+import BlobText from '@/components/BlobText'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
@@ -204,6 +218,7 @@ export default {
     CountdownButton,
     Accordion,
     CallToAction,
+    BlobText,
     Grid,
     GridItem,
   },

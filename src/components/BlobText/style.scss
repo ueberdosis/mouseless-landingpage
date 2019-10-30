@@ -1,0 +1,19 @@
+.blob-text {
+
+  
+  @media screen and (min-width: 700px) {
+    padding: 4rem 0;
+  }
+
+  &__content {
+    color: $colorWhite;
+    margin: 0 auto;
+    max-width: 40rem;
+  }
+
+  background-image: url('~@/assets/images/blob.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+}
