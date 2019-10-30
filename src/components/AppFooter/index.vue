@@ -19,7 +19,7 @@
             </a>
           </li>
           <li>
-            <a href="https://ueberdosis.io/impressum">
+            <a href="https://ueberdosis.io/impressum" target="_blank">
               Impressum
             </a>
           </li>
