@@ -4,7 +4,7 @@
       <div class="app__left-inner">
         <img class="app__logo" src="@/assets/images/logo.png">
         <h1 class="app__title">
-          The #1 Way to Get Productivity Superpowers
+          Unleash your keyboard's superpower
         </h1>
         <p class="app__subtitle">
           A beautiful way to get better at all the creative tools you already know and love.
