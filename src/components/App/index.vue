@@ -50,7 +50,7 @@
             </p>
           </template>
           <template v-slot:media>
-            <img class="rounded-image" src="https://gobiznext.com/wp-content/uploads/2017/08/giphy-45.gif" alt="">
+            <img class="rounded-image" src="https://drop.philipp-kuehn.com/kFv1qJRVyU.gif" alt="">
           </template>
         </split>
       </app-section>
