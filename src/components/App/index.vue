@@ -93,7 +93,7 @@
             </h2>
             <p>
               Cover the basics with shortcuts for macOS or let your fingers fly
-              in one of the 12 apps and tools you already love.
+              in one of the 11 apps and tools you already love.
             </p>
           </template>
           <template v-slot:media>
