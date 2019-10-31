@@ -25,7 +25,8 @@
           </li>
         </ul>
         <p>
-          © 2019 überclub
+          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a>
+          · Icon designed by <a href="https://twitter.com/juliusgehrig" target="_blank">Julius Gehrig</a>
         </p>
       </grid-item>
       <grid-item :options="{ medium: '6/12' }">
