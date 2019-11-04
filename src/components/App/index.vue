@@ -87,7 +87,15 @@
             </p>
           </template>
           <template v-slot:media>
-            <img class="rounded-image" src="~@/assets/images/menubar.png" alt="">
+            <video
+              class="rounded-image"
+              src="@/assets/videos/menubar.mp4"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="~@/assets/images/menubar.png"
+            />
           </template>
         </split>
       </app-section>
