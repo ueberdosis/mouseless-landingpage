@@ -50,7 +50,14 @@
             </p>
           </template>
           <template v-slot:media>
-            <img class="rounded-image" src="https://drop.philipp-kuehn.com/kFv1qJRVyU.gif" alt="">
+            <video
+              class="rounded-image"
+              src="@/assets/videos/coffee.mp4"
+              playsinline
+              autoplay
+              muted
+              loop
+            />
           </template>
         </split>
       </app-section>
