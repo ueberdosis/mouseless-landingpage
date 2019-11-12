@@ -160,17 +160,19 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="Is there a Windows app?">
               <p>
-                Nope, not for now. But give us a shout and we'll consider it.
+                Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
+                and we'll consider it.
               </p>
             </accordion>
             <accordion title="Something's wrong. How do I get in touch?">
               <p>
-                Drop us a line, we'll be happy to help!
+                <a href="mailto:support@mouseless.app">Drop us a line</a>, we'll be happy to help!
               </p>
             </accordion>
             <accordion title="I can't find my favorite app. Will you update Mouseless?">
               <p>
-                Hm, we might. Get in touch so we know how to improve!
+                Hm, we might.
+                <a href="mailto:support@mouseless.app">Get in touch</a> so we know how to improve!
               </p>
             </accordion>
           </grid-item>
@@ -192,7 +194,7 @@
             </accordion>
             <accordion title="My country's keyboard layout is not supported. Now what?">
               <p>
-                Send us more details, please.
+                <a href="mailto:support@mouseless.app">Send us more details</a>, please.
                 As of now, Mouseless does not support every single keyboard layout known to man,
                 but hey: goals!
               </p>
