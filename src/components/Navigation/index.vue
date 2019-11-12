@@ -13,6 +13,7 @@
         </li>
         <li class="navigation__item">
           <a class="navigation__link" :href="downloadLink" download>
+            <icon name="apple" />
             Download
           </a>
         </li>
@@ -27,8 +28,12 @@
 </template>
 
 <script>
-export default {
+import Icon from '@/components/Icon'
 
+export default {
+  components: {
+    Icon,
+  },
 }
 </script>
 
