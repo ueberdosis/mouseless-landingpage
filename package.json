@@ -10,9 +10,9 @@
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.3",
     "collect.js": "^4.18.1",
-    "core-js": "^3.4.0",
+    "core-js": "^3.4.1",
     "gridilydidily": "^3.0.1",
-    "gsap": "^2.1.3",
+    "gsap": "^3.0.1",
     "moment": "^2.24.0",
     "uuid": "^3.3.3",
     "vue": "^2.6.10",
