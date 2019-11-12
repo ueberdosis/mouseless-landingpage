@@ -83,7 +83,8 @@
               Need to cheat?
             </h2>
             <p>
-              Browse our database to look up a shortcut within your current app.
+              Look up a shortcut within your current app.
+              Works with every app you've ever installed.
             </p>
           </template>
           <template v-slot:media>
