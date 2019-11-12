@@ -1,5 +1,5 @@
 <script>
-import { TweenLite } from 'gsap'
+import gsap from 'gsap'
 
 export default {
   props: {
@@ -49,11 +49,11 @@ export default {
       const { container } = this.$refs
 
       if (this.active) {
-        TweenLite.set(container, { overflow: 'visible', opacity: 1, height: 'auto' })
-        TweenLite.from(container, this.duration / 1000, { opacity: 0, height: 0 })
+        gsap.set(container, { overflow: 'visible', opacity: 1, height: 'auto' })
+        gsap.from(container, this.duration / 1000, { opacity: 0, height: 0 })
       } else {
-        TweenLite.set(container, { overflow: 'hidden', opacity: 1 })
-        TweenLite.to(container, this.duration / 1000, { opacity: 0, height: 0 })
+        gsap.set(container, { overflow: 'hidden', opacity: 1 })
+        gsap.to(container, this.duration / 1000, { opacity: 0, height: 0 })
       }
     },
   },
