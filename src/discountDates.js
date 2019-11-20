@@ -1,31 +1,7 @@
 export default [
   {
-    date: '2019-10-24',
+    date: '2019-11-21',
     title: 'Launch Day',
-  },
-  {
-    date: '2019-10-31',
-    title: 'Halloween',
-  },
-  {
-    date: '2019-11-03',
-    title: 'Zero Tasking Day',
-  },
-  {
-    date: '2019-11-04',
-    title: 'Use Your Common Sense Day',
-  },
-  {
-    date: '2019-11-10',
-    title: 'World Science Day for Peace and Development',
-  },
-  {
-    date: '2019-11-12',
-    title: 'Happy Hour Day',
-  },
-  {
-    date: '2019-11-20',
-    title: 'Name Your PC Day',
   },
   {
     date: '2019-11-26',
