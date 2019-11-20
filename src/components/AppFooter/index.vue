@@ -19,6 +19,11 @@
             </a>
           </li>
           <li>
+            <a href="https://floatie.app/mouseless" target="_blank">
+              Open
+            </a>
+          </li>
+          <li>
             <a href="https://ueberdosis.io/impressum" target="_blank">
               Impressum
             </a>
