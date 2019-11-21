@@ -11,7 +11,7 @@
             Unleash your keyboard’s superpower
           </h1>
           <p>
-            Wading through shortcuts, and it's too hard to remember any?
+            Wading through shortcuts, and it’s too hard to remember any?
             Get those keystrokes ingrained in your muscle memory for good.
           </p>
           <countdown-button />
@@ -47,7 +47,7 @@
             </h2>
             <p>
               Stop chasing your mouse and save up to 8 days a year.
-              Surely, you'll find something better to do with your time.
+              Surely, you’ll find something better to do with your time.
             </p>
           </template>
           <template v-slot:media>
@@ -85,7 +85,7 @@
             </h2>
             <p>
               Look up a shortcut within your current app.
-              Works with every app you've ever installed.
+              Works with every app you’ve ever installed.
             </p>
           </template>
           <template v-slot:media>
@@ -123,7 +123,7 @@
         <grid :options="{ medium: 'wide'}">
           <grid-item :options="{ medium: '4/12'}">
             <feature-item title="1.000+ Shortcuts" icon="database">
-              With our database you've got more than 1.000 keyboard commands at your fingertips,
+              With our database you’ve got more than 1.000 keyboard commands at your fingertips,
               subdivided by app and category.
             </feature-item>
           </grid-item>
@@ -168,7 +168,7 @@
                 However, the menu bar dropdown supports every app that is currently open.
               </p>
             </accordion>
-            <accordion title="The menubar app doesn't work. What can I do?">
+            <accordion title="The menubar app doesn’t work. What can I do?">
               <p>
                 Mouseless requires the accessibility permission
                 in “System Preferences › Security & Privacy › Privacy › Accessibility”.
@@ -176,23 +176,23 @@
               <p>
                 For macOS 10.15 (Catalina) the screen recording permission
                 in “System Preferences › Security & Privacy › Privacy › Screen Recording”
-                is required too. Don't worry – we don't record your screen.
+                is required too. Don’t worry – we don’t record your screen.
               </p>
             </accordion>
             <accordion title="Is there a Windows app?">
               <p>
                 Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
-                and we'll consider it.
+                and we’ll consider it.
               </p>
             </accordion>
-            <accordion title="Something's wrong. How do I get in touch?">
+            <accordion title="Something’s wrong. How do I get in touch?">
               <p>
-                <a href="mailto:support@mouseless.app">Drop us a line</a>, we'll be happy to help!
+                <a href="mailto:support@mouseless.app">Drop us a line</a>, we’ll be happy to help!
               </p>
             </accordion>
           </grid-item>
           <grid-item :options="{ medium: '6/12'}">
-            <accordion title="I can't find my favorite app. Will you update Mouseless?">
+            <accordion title="I can’t find my favorite app. Will you update Mouseless?">
               <p>
                 Hm, we might.
                 <a href="mailto:support@mouseless.app">Get in touch</a> so we know how to improve!
@@ -201,7 +201,7 @@
             <accordion title="Can I ditch my mouse for good?">
               <p>
                 Noooooo! Mouseless is not about getting rid of your mouse –
-                you'll always need it! But you'll spend less time with mouse clicking.
+                you’ll always need it! But you’ll spend less time with mouse clicking.
               </p>
             </accordion>
             <accordion title="How long does it take before I see results?">
@@ -213,7 +213,7 @@
                 practice, and you should see results rather quickly.
               </p>
             </accordion>
-            <accordion title="My country's keyboard layout is not supported. Now what?">
+            <accordion title="My country’s keyboard layout is not supported. Now what?">
               <p>
                 <a href="mailto:support@mouseless.app">Send us more details</a>, please.
                 As of now, Mouseless does not support every single keyboard layout known to man,
