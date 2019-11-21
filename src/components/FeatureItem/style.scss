@@ -1,0 +1,32 @@
+.feature-item {
+
+  &__header {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: baseline;
+  }
+
+  &__title {
+    flex: 1 1 auto;
+    margin: 0;
+  }
+
+  &__icon-wrapper {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    background-color: rgba($colorYellow, 0.2);
+    color: $colorYellow;
+  }
+
+  &__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+}

@@ -1,4 +1,5 @@
 $colorWhite: #F2F2F2;
+$colorPureBlack: #000;
 $colorBlack: #121212;
 $colorDarkGrey: #1F1F1F;
 $colorGreen: #28C941;
@@ -6,6 +7,7 @@ $colorDarkGreen: #1E9931;
 $colorYellow: #FDD231;
 $colorRed: #FF6159;
 $colorDarkRed: #CC4E47;
+$colorProductHuntRed: #E8562A;
 
 /* Default Equations */
 $linear: cubic-bezier(0.250, 0.250, 0.750, 0.750);
@@ -41,3 +43,52 @@ $easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
 $easeInOutExpo: cubic-bezier(1.000, 0.000, 0.000, 1.000);
 $easeInOutCirc: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 $easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+
+$grid-settings: (
+  breakpoints: (
+    x-small: 'only screen and (min-width: 350px)',
+    small: 'only screen and (min-width: 600px)',
+    medium: 'only screen and (min-width: 800px)',
+    large: 'only screen and (min-width: 1000px)',
+    x-large: 'only screen and (min-width: 1200px)',
+  ),
+  bases: (
+    12,
+  ),
+  gutters: (
+    none: 0,
+    narrow: 0.7rem,
+    normal: 1.5rem,
+    wide: 2.5rem,
+  ),
+  default-gutter: 1.5rem,
+  gutter-breakpoints: true,
+  vertical-gutters: true,
+  fallback: false,
+  fallback-markup-fix: false,
+  grid-modifiers: (
+    left,
+    center,
+    right,
+    top,
+    middle,
+    bottom,
+    forwards,
+    backwards,
+    between,
+    // around,
+    equal,
+  ),
+  grid-modifier-breakpoints: true,
+  item-modifiers: (
+    // first,
+    // last,
+    // reset-order,
+    // push,
+    // pull,
+    auto,
+    fill,
+  ),
+  item-modifier-breakpoints: true,
+);
+

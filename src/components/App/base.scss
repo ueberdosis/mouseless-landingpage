@@ -24,11 +24,7 @@
   border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 8px;
-  background-color: rgba($colorBlack, 0.08);
-
-  &:hover {
-    background-color: rgba($colorBlack, 0.08);
-  }
+  background-color: $colorYellow;
 }
 
 ::-webkit-scrollbar-button {
@@ -41,32 +37,107 @@
   background-color: transparent;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $colorBlack;
-  color: $colorWhite;
+  background-color: $colorPureBlack;
+  color: rgba($colorWhite, 0.5);
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
   font-size: 1.35rem;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 p {
   margin: 1rem 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+small,
+.small {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: 1.2;
+a {
+  color: inherit;
+  transition: color 0.2s $ease, background-color 0.2s $ease;
+}
 
-  @media screen and (max-width: 1200px) {
-    font-size: 2.5rem;
+h1,
+.is-h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1rem 0;
+
+  @media screen and (min-width: 700px) {
+    font-size: 4rem;
+  }
+}
+
+h2,
+.is-h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 1rem 0;
+
+  @media screen and (min-width: 700px) {
+    font-size: 2.8rem;
+  }
+}
+
+h3,
+.is-h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0.5rem 0;
+
+  @media screen and (min-width: 700px) {
+    font-size: 1.3rem;
+  }
+}
+
+h4,
+.is-h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+h5,
+.is-h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+h1,
+.is-h1,
+h2,
+.is-h2,
+h3,
+.is-h3,
+h4,
+.is-h4,
+h5,
+.is-h5 {
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -88,8 +159,36 @@ button:not([disabled]) {
   cursor: pointer;
 }
 
+.green {
+  color: $colorGreen;
+}
+
+.yellow {
+  color: $colorYellow;
+}
+
 .truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.rounded-image {
+  border-radius: 19px;
+  width: 100%;
+  height: auto;
+}
+
+.brain {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1em;
+  width: auto;
+  margin: 0 0.8rem;
+}
+
+@import 'node_modules/gridilydidily/gridilydidily.scss';
+
+.grid__item:empty {
+  display: none;
 }

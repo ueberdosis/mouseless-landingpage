@@ -1,84 +1,17 @@
 .app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
-  @media screen and (min-width: 1200px) {
-    flex-direction: row;
+  overflow: hidden;
+  
+  &__header {
+    position: relative;
+    z-index: 2;
   }
 
-  &__left,
-  &__right {
-    @media screen and (min-width: 1200px) {
-      width: 50%;
-    }
-  }
-
-  &__left {
-    background-color: $colorYellow;
-    color: $colorBlack;
-  }
-
-  &__left-inner,
-  &__right-inner {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem 1.5rem;
-    max-width: 38rem;
-    margin: 0 auto;
-
-    @media screen and (min-width: 1200px) {
-      padding: 3rem;
-    }
-  }
-
-  &__logo {
-    width: 14rem;
-    margin-left: -3.2rem;
-    margin-bottom: -2rem;
-  }
-
-  &__title {
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-  }
-
-  &__subtitle {
-    opacity: 0.5;
-    font-size: 1.4rem;
-    font-weight: 500;
-    max-width: 30rem;
-    margin-bottom: 2rem;
-
-    @media screen and (max-width: 1200px) {
-      font-size: 1.2rem;
-    }
-  }
-
-  &__form {
-    max-width: 22rem;
-  }
-
-  &__logos {
-    width: 20rem;
-    max-width: 100%;
-    margin: 0 auto;
-    
-    @media screen and (min-width: 1200px) {
-      width: 25rem;
-    }
+  &__content {
+    position: relative;
+    z-index: 1;
   }
 
   &__footer {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    opacity: 0.5;
 
-    a {
-      text-decoration: underline;
-    }
   }
 }

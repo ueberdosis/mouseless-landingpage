@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="https://mouseless.app/favicon.ico">
+
     <title>Mouseless</title>
-    <meta name="description" content="A beautiful way to get better at all the creative tools you already know and love.">
     <meta property="og:title" content="Mouseless" />
+    <meta name="description" content="A beautiful way to get better at all the creative tools you already know and love.">
     <meta property="og:url" content="https://mouseless.app/" />
     <meta property="og:image" content="https://mouseless.app/opengraph.png">
     <meta property="og:description" content="A beautiful way to get better at all the creative tools you already know and love." />
@@ -22,5 +23,10 @@
       ? '<script async defer src="https://data.mouseless.app/app.js"></script><noscript><img src="https://data.mouseless.app/image.gif" alt=""></noscript>'
       : ''
     %>
+    <%= process.env.NODE_ENV === 'production'
+      ? '<script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "3432ee45-9a69-4e42-be0f-441b59cf7a44"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s) }())</script>'
+      : ''
+    %>
+    <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
   </body>
 </html>

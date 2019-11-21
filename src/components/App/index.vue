@@ -1,41 +1,254 @@
 <template>
   <div class="app">
-    <div class="app__left">
-      <div class="app__left-inner">
-        <img class="app__logo" src="@/assets/images/logo.png">
-        <h1 class="app__title">
-          Unleash your keyboard's superpower
-        </h1>
-        <p class="app__subtitle">
-          A beautiful way to get better at all the creative tools you already know and love.
-          Sign up to find out when it’s ready.
-        </p>
-        <newsletter-form class="app__form" />
-        <p class="app__footer">
-          Made with ❤️ by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a> · Icon designed by <a href="https://twitter.com/juliusgehrig" target="_blank">Julius Gehrig</a>
-        </p>
-      </div>
-    </div>
-    <div class="app__right">
-      <div class="app__right-inner">
-        <flipping-logos class="app__logos" />
-      </div>
-    </div>
+    <product-hunt-bar />
+    <header class="app__header">
+      <navigation />
+    </header>
+    <main class="app__content">
+      <app-section color="yellow">
+        <banner>
+          <h1>
+            Unleash your keyboard's superpower
+          </h1>
+          <p>
+            Wading through shortcuts, and it's too hard to remember any?
+            Get those keystrokes ingrained in your muscle memory for good.
+          </p>
+          <countdown-button />
+        </banner>
+      </app-section>
+
+      <app-section show-wave>
+        <demo-video />
+      </app-section>
+
+      <app-section id="features">
+        <split>
+          <template v-slot:text>
+            <h2>
+              Interactive Training
+            </h2>
+            <p>
+              A session takes less than 5 minutes and covers about 10 shortcuts.
+              Apply your new skills right away to reinforce your learning experience.
+            </p>
+          </template>
+          <template v-slot:media>
+            <img class="rounded-image" src="~@/assets/images/keys.png" alt="">
+          </template>
+        </split>
+      </app-section>
+
+      <app-section>
+        <split flipped>
+          <template v-slot:text>
+            <h2>
+              Boost your productivity
+            </h2>
+            <p>
+              Stop chasing your mouse and save up to 8 days a year.
+              Surely, you'll find something better to do with your time.
+            </p>
+          </template>
+          <template v-slot:media>
+            <video
+              class="rounded-image"
+              src="@/assets/videos/coffee.mp4"
+              playsinline
+              autoplay
+              muted
+              loop
+            />
+          </template>
+        </split>
+      </app-section>
+
+      <app-section>
+        <blob-text>
+          <p>
+            <span class="yellow">Mouseless</span> caters shortcuts for your favorite apps
+            in bite-sized exercises to you.
+          </p>
+          <p>
+            Interactive drills <span class="yellow">train the muscle-memory</span>
+            <img class="brain" src="@/assets/images/brain.svg" alt="">required
+            to have your fingers flying across the keyboard.
+          </p>
+        </blob-text>
+      </app-section>
+
+      <app-section>
+        <split>
+          <template v-slot:text>
+            <h2>
+              Need to cheat?
+            </h2>
+            <p>
+              Look up a shortcut within your current app.
+              Works with every app you've ever installed.
+            </p>
+          </template>
+          <template v-slot:media>
+            <video
+              class="rounded-image"
+              src="@/assets/videos/menubar.mp4"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="~@/assets/images/menubar.png"
+            />
+          </template>
+        </split>
+      </app-section>
+
+      <app-section>
+        <split flipped>
+          <template v-slot:text>
+            <h2>
+              All your favorites in one place
+            </h2>
+            <p>
+              Cover the basics with shortcuts for macOS or let your fingers fly
+              in one of the 11 apps and tools you already love.
+            </p>
+          </template>
+          <template v-slot:media>
+            <flipping-logos />
+          </template>
+        </split>
+      </app-section>
+
+      <app-section>
+        <grid :options="{ medium: 'wide'}">
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="1.000+ Shortcuts" icon="database">
+              With our database you've got more than 1.000 keyboard commands at your fingertips,
+              subdivided by app and category.
+            </feature-item>
+          </grid-item>
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="Keyboard Optimization" icon="globe">
+              Mouseless translates shortcuts to the language requirements of your keyboard.
+            </feature-item>
+          </grid-item>
+          <grid-item :options="{ medium: '4/12'}">
+            <feature-item title="Offline Support" icon="offline">
+              No Wi-fi – no problem.
+              Mouseless runs just as smoothly in a rustic cabin as on a plane.
+            </feature-item>
+          </grid-item>
+        </grid>
+      </app-section>
+
+      <app-section>
+        <call-to-action>
+          <h2>
+            Get it done faster
+          </h2>
+          <p>
+            Master all of the magic keystrokes for your favorite apps & tools.
+          </p>
+          <countdown-button />
+        </call-to-action>
+      </app-section>
+
+      <app-section>
+        <h2>
+          FAQ
+        </h2>
+        <grid :options="{ medium: 'wide'}">
+          <grid-item :options="{ medium: '6/12'}">
+            <accordion title="Is there a Windows app?">
+              <p>
+                Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
+                and we'll consider it.
+              </p>
+            </accordion>
+            <accordion title="Something's wrong. How do I get in touch?">
+              <p>
+                <a href="mailto:support@mouseless.app">Drop us a line</a>, we'll be happy to help!
+              </p>
+            </accordion>
+            <accordion title="I can't find my favorite app. Will you update Mouseless?">
+              <p>
+                Hm, we might.
+                <a href="mailto:support@mouseless.app">Get in touch</a> so we know how to improve!
+              </p>
+            </accordion>
+          </grid-item>
+          <grid-item :options="{ medium: '6/12'}">
+            <accordion title="Can I ditch my mouse for good?">
+              <p>
+                Noooooo! Mouseless is not about getting rid of your mouse –
+                you'll always need it! But you'll spend less time with mouse clicking.
+              </p>
+            </accordion>
+            <accordion title="How long does it take before I see results?">
+              <p>
+                The amount of keyboard shortcuts for each app or tool varies,
+                so there cannot possibly be a general answer to that. Of course,
+                individual learning behavior affects the result as well.
+                Try to establish a daily study routine, put your knowledge into
+                practice, and you should see results rather quickly.
+              </p>
+            </accordion>
+            <accordion title="My country's keyboard layout is not supported. Now what?">
+              <p>
+                <a href="mailto:support@mouseless.app">Send us more details</a>, please.
+                As of now, Mouseless does not support every single keyboard layout known to man,
+                but hey: goals!
+              </p>
+            </accordion>
+          </grid-item>
+        </grid>
+      </app-section>
+    </main>
+    <footer class="app__footer">
+      <app-section>
+        <app-footer />
+      </app-section>
+    </footer>
   </div>
 </template>
 
 <script>
-import NewsletterForm from '@/components/NewsletterForm'
+import Banner from '@/components/Banner'
+import ProductHuntBar from '@/components/ProductHuntBar'
+import Navigation from '@/components/Navigation'
+import AppSection from '@/components/AppSection'
+import AppFooter from '@/components/AppFooter'
+import DemoVideo from '@/components/DemoVideo'
 import FlippingLogos from '@/components/FlippingLogos'
+import Split from '@/components/Split'
+import FeatureItem from '@/components/FeatureItem'
+import Accordion from '@/components/Accordion'
+import CountdownButton from '@/components/CountdownButton'
+import CallToAction from '@/components/CallToAction'
+import BlobText from '@/components/BlobText'
+import { Grid, GridItem } from '@/components/Grid'
 
 export default {
   components: {
-    NewsletterForm,
+    Banner,
+    ProductHuntBar,
+    Navigation,
+    AppSection,
+    AppFooter,
+    DemoVideo,
     FlippingLogos,
+    Split,
+    FeatureItem,
+    CountdownButton,
+    Accordion,
+    CallToAction,
+    BlobText,
+    Grid,
+    GridItem,
   },
 }
 </script>
 
 <style lang="scss" src="./fonts.scss"></style>
 <style lang="scss" src="./base.scss"></style>
-<style lang="scss" src="./app.scss" scoped></style>
+<style lang="scss" src="./app.scss"></style>

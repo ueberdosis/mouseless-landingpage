@@ -1,0 +1,19 @@
+.app-footer {
+  border-top: 2px solid rgba($colorWhite, 0.1);
+  padding-top: 2rem;
+
+  ul {
+    list-style: none;
+
+    li {
+      margin: 0.4rem 0;
+
+      a {
+        text-decoration: none;
+        &:hover {
+          color: $colorWhite;
+        }
+      }
+    }
+  }
+}
