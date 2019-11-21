@@ -159,6 +159,15 @@
         </h2>
         <grid :options="{ medium: 'wide'}">
           <grid-item :options="{ medium: '6/12'}">
+            <accordion title="Is there a list of supported apps?">
+              <p>
+                Gmail, Slack, Adobe XD, Figma, Sketch, VS Code,
+                Bear, Google Docs, Notion, Trello, Chrome, Finder, macOS.
+              </p>
+              <p>
+                However, the menu bar dropdown supports every app that is currently open.
+              </p>
+            </accordion>
             <accordion title="Is there a Windows app?">
               <p>
                 Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
