@@ -168,6 +168,17 @@
                 However, the menu bar dropdown supports every app that is currently open.
               </p>
             </accordion>
+            <accordion title="The menubar app doesn't work. What can I do?">
+              <p>
+                Mouseless requires the accessibility permission
+                in “System Preferences › Security & Privacy › Privacy › Accessibility”.
+              </p>
+              <p>
+                For macOS 10.15 (Catalina) the screen recording permission
+                in “System Preferences › Security & Privacy › Privacy › Screen Recording”
+                is required too. Don't worry – we don't record your screen.
+              </p>
+            </accordion>
             <accordion title="Is there a Windows app?">
               <p>
                 Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
@@ -179,14 +190,14 @@
                 <a href="mailto:support@mouseless.app">Drop us a line</a>, we'll be happy to help!
               </p>
             </accordion>
+          </grid-item>
+          <grid-item :options="{ medium: '6/12'}">
             <accordion title="I can't find my favorite app. Will you update Mouseless?">
               <p>
                 Hm, we might.
                 <a href="mailto:support@mouseless.app">Get in touch</a> so we know how to improve!
               </p>
             </accordion>
-          </grid-item>
-          <grid-item :options="{ medium: '6/12'}">
             <accordion title="Can I ditch my mouse for good?">
               <p>
                 Noooooo! Mouseless is not about getting rid of your mouse –
