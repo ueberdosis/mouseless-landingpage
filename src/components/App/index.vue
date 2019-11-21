@@ -8,7 +8,7 @@
       <app-section color="yellow">
         <banner>
           <h1>
-            Unleash your keyboard's superpower
+            Unleash your keyboard’s superpower
           </h1>
           <p>
             Wading through shortcuts, and it's too hard to remember any?
