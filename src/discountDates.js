@@ -4,6 +4,10 @@ export default [
     title: 'Launch Day',
   },
   {
+    date: '2019-11-22',
+    title: 'After Launch Day',
+  },
+  {
     date: '2019-11-26',
     title: 'Cake Day',
   },
@@ -13,7 +17,7 @@ export default [
   },
   {
     date: '2019-12-01',
-    title: '1. Advent',
+    title: '1st Advent',
   },
   {
     date: '2019-12-04',
@@ -25,15 +29,15 @@ export default [
   },
   {
     date: '2019-12-08',
-    title: '2. Advent',
+    title: '2nd Advent',
   },
   {
     date: '2019-12-15',
-    title: '3. Advent',
+    title: '3rd Advent',
   },
   {
     date: '2019-12-22',
-    title: '4. Advent',
+    title: '4th Advent',
   },
   {
     date: '2019-12-26',
