@@ -54,7 +54,7 @@
       </btn>
     </div>
     <div class="countdown-button__discount" v-if="activeDiscount">
-      25% off on {{ activeDiscount.title }}
+      25% off on {{ activeDiscount.title }} · 7-Day Money-Back Guarantee
     </div>
     <div class="countdown-button__discount" v-else>
       7-Day Money-Back Guarantee
