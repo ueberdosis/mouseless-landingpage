@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <product-hunt-bar />
+    <!-- <product-hunt-bar /> -->
     <header class="app__header">
       <navigation />
     </header>
@@ -234,7 +234,7 @@
 
 <script>
 import Banner from '@/components/Banner'
-import ProductHuntBar from '@/components/ProductHuntBar'
+// import ProductHuntBar from '@/components/ProductHuntBar'
 import Navigation from '@/components/Navigation'
 import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
@@ -251,7 +251,7 @@ import { Grid, GridItem } from '@/components/Grid'
 export default {
   components: {
     Banner,
-    ProductHuntBar,
+    // ProductHuntBar,
     Navigation,
     AppSection,
     AppFooter,

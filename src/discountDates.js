@@ -5,7 +5,15 @@ export default [
   },
   {
     date: '2019-11-22',
-    title: 'Launch Day',
+    title: 'Launch',
+  },
+  {
+    date: '2019-11-23',
+    title: 'Launch',
+  },
+  {
+    date: '2019-11-24',
+    title: 'Launch',
   },
   {
     date: '2019-11-26',
