@@ -170,7 +170,8 @@
             </accordion>
             <accordion title="Do you offer a trial?">
               <p>
-                We didn't implement a trial yet, but no worries - feel free to purchase the app. If it's not for you send a short message. We'll refund your order.
+                We didn't implement a trial yet, but no worries - feel free to purchase the app.
+                If it's not for you send a short message. We'll refund your order.
               </p>
             </accordion>
             <accordion title="The menubar app doesn’t work. What can I do?">
