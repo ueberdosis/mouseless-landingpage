@@ -168,6 +168,12 @@
                 However, the menu bar dropdown supports every app that is currently open.
               </p>
             </accordion>
+            <accordion title="Do you offer a trial?">
+              <p>
+                We didn't implement a trial yet, but no worries - feel free to purchase the app.
+                If it's not for you send a short message. We'll refund your order.
+              </p>
+            </accordion>
             <accordion title="The menubar app doesn’t work. What can I do?">
               <p>
                 Mouseless requires the accessibility permission
