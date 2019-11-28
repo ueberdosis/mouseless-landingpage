@@ -110,7 +110,7 @@
             </h2>
             <p>
               Cover the basics with shortcuts for macOS or let your fingers fly
-              in one of the 11 apps and tools you already love.
+              in one of the 14 apps and tools you already love.
             </p>
           </template>
           <template v-slot:media>
@@ -161,8 +161,8 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="Is there a list of supported apps?">
               <p>
-                Gmail, Slack, Adobe XD, Figma, Sketch, VS Code,
-                Bear, Google Docs, Notion, Trello, Chrome, Finder, macOS.
+                Gmail, Slack, Adobe XD, Figma, Sketch, VS Code, Bear,
+                Google Docs, iA Writer, Notion, Things, Trello, Chrome, Finder, Firefox, macOS.
               </p>
               <p>
                 However, the menu bar dropdown supports every app that is currently open.
