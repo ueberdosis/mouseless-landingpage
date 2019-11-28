@@ -24,8 +24,16 @@ export default [
     title: 'Black Friday',
   },
   {
+    date: '2019-11-30',
+    title: 'Black Friday',
+  },
+  {
     date: '2019-12-01',
-    title: '1st Advent',
+    title: 'Black Friday',
+  },
+  {
+    date: '2019-12-02',
+    title: 'Cyber Monday',
   },
   {
     date: '2019-12-04',
