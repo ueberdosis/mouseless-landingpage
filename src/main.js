@@ -34,7 +34,7 @@ Vue.mixin({
   data() {
     return {
       activeDiscount: formattedDiscountDates.find(item => item.isActive),
-      downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-1.0.7-mac.dmg',
+      downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-1.1.0-mac.dmg',
     }
   },
 
