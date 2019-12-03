@@ -65,7 +65,7 @@ export default {
     },
   },
 
-  created() {
+  mounted() {
     this.isActive = !!this.active
 
     window.addEventListener('resize', this.handleResize)

@@ -1,41 +1,32 @@
 {
   "name": "mouseless-landingpage",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "gridsome build",
+    "start": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.3",
     "collect.js": "^4.18.9",
-    "core-js": "^3.4.1",
     "gridilydidily": "^3.0.1",
+    "gridsome": "^0.7.0",
     "gsap": "^3.0.1",
     "moment": "^2.24.0",
+    "style-resources-loader": "^1.3.2",
     "uuid": "^3.3.3",
-    "vue": "^2.6.10",
-    "vue-countdown": "^1.0.4",
-    "vue-mailchimp-subscribe": "^1.1.0",
-    "vue-router": "^3.0.6"
+    "vue-mailchimp-subscribe": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
-    "@vue/cli-plugin-babel": "^4.0.5",
-    "@vue/cli-plugin-eslint": "^4.0.5",
-    "@vue/cli-plugin-router": "^4.0.5",
-    "@vue/cli-service": "^4.0.5",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-scrumpy": "^1.0.0",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^6.0.1",
     "html-loader": "^0.5.5",
-    "sass": "^1.23.7",
-    "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
   }
 }
