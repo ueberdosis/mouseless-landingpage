@@ -36,6 +36,10 @@ export default [
     title: 'Cyber Monday',
   },
   {
+    date: '2019-12-03',
+    title: 'Make a Gift Day',
+  },
+  {
     date: '2019-12-04',
     title: 'Cookie Day',
   },
