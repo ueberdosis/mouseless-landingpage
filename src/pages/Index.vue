@@ -241,10 +241,6 @@ import BlobText from '@/components/BlobText'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
-  metaInfo: {
-    title: 'Hello, world!',
-  },
-
   components: {
     Banner,
     AppSection,

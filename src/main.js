@@ -57,10 +57,6 @@ export default function (Vue, { router, head, isClient }) {
     content: 'summary',
   })
 
-  // if (process.env.NODE_ENV === 'production') {
-  //   head.script.push({ src: '/assets/js/theme.min.js' })
-  // }
-
   Vue.mixin({
     data() {
       return {
