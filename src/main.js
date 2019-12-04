@@ -60,7 +60,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin({
     data() {
       return {
-        isClient: !this.$isServer,
         activeDiscount: formattedDiscountDates.find(item => item.isActive),
         downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-1.1.0-mac.dmg',
       }

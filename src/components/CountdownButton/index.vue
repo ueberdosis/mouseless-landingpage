@@ -1,48 +1,50 @@
 <template>
   <div class="countdown-button" :class="{ 'has-discount': activeDiscount }">
     <div class="countdown-button__inner">
-      <countdown
-        class="countdown-button__countdown"
-        :time="activeDiscount.countdown"
-        :interval="1000"
-        tag="div"
-        v-if="activeDiscount && isClient"
-      >
-        <template v-slot="{ days, hours, minutes, seconds }">
-          <div class="countdown-button__item">
-            <div class="countdown-button__value">
-              {{ days | value }}
+      <client-only>
+        <countdown
+          class="countdown-button__countdown"
+          :time="activeDiscount.countdown"
+          :interval="1000"
+          tag="div"
+          v-if="activeDiscount"
+        >
+          <template v-slot="{ days, hours, minutes, seconds }">
+            <div class="countdown-button__item">
+              <div class="countdown-button__value">
+                {{ days | value }}
+              </div>
+              <div class="countdown-button__label">
+                Days
+              </div>
             </div>
-            <div class="countdown-button__label">
-              Days
+            <div class="countdown-button__item">
+              <div class="countdown-button__value">
+                {{ hours | value }}
+              </div>
+              <div class="countdown-button__label">
+                Hrs
+              </div>
             </div>
-          </div>
-          <div class="countdown-button__item">
-            <div class="countdown-button__value">
-              {{ hours | value }}
+            <div class="countdown-button__item">
+              <div class="countdown-button__value">
+                {{ minutes | value }}
+              </div>
+              <div class="countdown-button__label">
+                Mins
+              </div>
             </div>
-            <div class="countdown-button__label">
-              Hrs
+            <div class="countdown-button__item">
+              <div class="countdown-button__value">
+                {{ seconds | value }}
+              </div>
+              <div class="countdown-button__label">
+                Secs
+              </div>
             </div>
-          </div>
-          <div class="countdown-button__item">
-            <div class="countdown-button__value">
-              {{ minutes | value }}
-            </div>
-            <div class="countdown-button__label">
-              Mins
-            </div>
-          </div>
-          <div class="countdown-button__item">
-            <div class="countdown-button__value">
-              {{ seconds | value }}
-            </div>
-            <div class="countdown-button__label">
-              Secs
-            </div>
-          </div>
-        </template>
-      </countdown>
+          </template>
+        </countdown>
+      </client-only>
       <btn :href="gumroadLink" target="_blank" class="countdown-button__button">
         Buy for
         <template v-if="activeDiscount">
@@ -63,12 +65,12 @@
 </template>
 
 <script>
-// import Countdown from '@chenfengyuan/vue-countdown'
+import Countdown from '@chenfengyuan/vue-countdown'
 import Btn from '@/components/Btn'
 
 export default {
   components: {
-    Countdown: () => import('@chenfengyuan/vue-countdown'),
+    Countdown,
     Btn,
   },
 

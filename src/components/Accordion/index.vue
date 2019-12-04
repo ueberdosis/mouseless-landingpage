@@ -7,7 +7,7 @@
         <icon class="c-accordion__icon" name="arrow-down" v-else />
       </div>
     </button>
-    <slide-up-down :active="isActive" v-if="isClient">
+    <slide-up-down :active="isActive">
       <div class="c-accordion__content small" :aria-hidden="!isActive">
         <slot />
       </div>
