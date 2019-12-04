@@ -12,9 +12,9 @@
         <grid-item :options="{ medium: '6/12' }">
           <ul>
             <li>
-              <a href="#features">
+              <g-link to="/">
                 Features
-              </a>
+              </g-link>
             </li>
             <li>
               <a :href="downloadLink" download>
