@@ -4,8 +4,18 @@
       <h1>
         {{ app.title }}
       </h1>
-      <div>
-        {{ app.sets }}
+      <div v-for="set in app.sets" :key="set.id">
+        <h3>
+          {{ set.title }}
+        </h3>
+        <div v-for="(shortcut, index) in set.shortcuts" :key="index">
+          <span>
+            {{ shortcut.title }}
+          </span>
+          <span>
+            {{ shortcut.keys }}
+          </span>
+        </div>
       </div>
     </app-section>
   </Layout>
