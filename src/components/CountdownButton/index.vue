@@ -6,7 +6,7 @@
         :time="activeDiscount.countdown"
         :interval="1000"
         tag="div"
-        v-if="activeDiscount"
+        v-if="activeDiscount && isClient"
       >
         <template v-slot="{ days, hours, minutes, seconds }">
           <div class="countdown-button__item">
