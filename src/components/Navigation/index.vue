@@ -1,15 +1,15 @@
 <template>
   <div class="navigation">
     <div class="navigation__inner">
-      <div class="navigation__logo">
+      <g-link class="navigation__logo" to="/">
         <img class="navigation__icon" src="~@/assets/images/logo.png" alt="Icon">
         <img class="navigation__name" src="~@/assets/images/name.svg" alt="Mouseless">
-      </div>
+      </g-link>
       <ul class="navigation__menu">
         <li class="navigation__item">
-          <a class="navigation__link" href="#features">
+          <g-link class="navigation__link" to="/">
             Features
-          </a>
+          </g-link>
         </li>
         <li class="navigation__item">
           <a class="navigation__link" :href="downloadLink" download>
