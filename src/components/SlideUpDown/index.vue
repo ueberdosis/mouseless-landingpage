@@ -1,3 +1,9 @@
+<template>
+  <div style="height: 0; overflow: hidden;">
+    <slot />
+  </div>
+</template>
+
 <script>
 import gsap from 'gsap'
 
@@ -7,6 +13,7 @@ export default {
       type: Boolean,
       default: false,
     },
+
     duration: {
       type: Number,
       default: 200,
@@ -20,24 +27,6 @@ export default {
     }
   },
 
-  render(createElement) {
-    return createElement(
-      'div',
-      {
-        ref: 'container',
-        style: {
-          height: 0,
-          overflow: 'hidden',
-        },
-      },
-      this.$slots.default,
-    )
-  },
-
-  mounted() {
-    this.render()
-  },
-
   watch: {
     active() {
       this.render()
@@ -46,16 +35,18 @@ export default {
 
   methods: {
     render() {
-      const { container } = this.$refs
-
       if (this.active) {
-        gsap.set(container, { overflow: 'visible', opacity: 1, height: 'auto' })
-        gsap.from(container, this.duration / 1000, { opacity: 0, height: 0 })
+        gsap.set(this.$el, { overflow: 'visible', opacity: 1, height: 'auto' })
+        gsap.from(this.$el, this.duration / 1000, { opacity: 0, height: 0 })
       } else {
-        gsap.set(container, { overflow: 'hidden', opacity: 1 })
-        gsap.to(container, this.duration / 1000, { opacity: 0, height: 0 })
+        gsap.set(this.$el, { overflow: 'hidden', opacity: 1 })
+        gsap.to(this.$el, this.duration / 1000, { opacity: 0, height: 0 })
       }
     },
+  },
+
+  mounted() {
+    this.render()
   },
 }
 </script>
