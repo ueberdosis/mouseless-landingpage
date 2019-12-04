@@ -3,8 +3,6 @@ import moment from 'moment'
 import DefaultLayout from '~/layouts/Default.vue'
 import discountDates from './discountDates'
 
-console.log('isClient', process.isClient)
-
 const now = moment.utc()
 const dateFormat = 'YYYY-MM-DD hh:mm:ss'
 const formattedDiscountDates = collect(discountDates)
@@ -76,6 +74,10 @@ export default function (Vue, { router, head, isClient }) {
 
         return 'https://gum.co/Dwka'
       },
+    },
+
+    mounted() {
+      console.log('isClient', this.isClient)
     },
   })
 
