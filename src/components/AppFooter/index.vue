@@ -1,5 +1,12 @@
 <template>
   <div class="app-footer small">
+    <div>
+      <div v-for="app in apps" :key="app.id">
+        <g-link :to="`/app/${app.id}`">
+          {{ app.title }}
+        </g-link>
+      </div>
+    </div>
     <grid :options="{ default: 'backwards wide', medium: 'forwards' }">
       <grid-item :options="{ medium: '6/12' }">
         <ul>
@@ -49,6 +56,19 @@
   </div>
 </template>
 
+<static-query>
+query {
+  apps: allApp {
+    edges {
+      node {
+        id
+        title
+      }
+    }
+  }
+}
+</static-query>
+
 <script>
 import { Grid, GridItem } from '@/components/Grid'
 import NewsletterForm from '@/components/NewsletterForm'
@@ -58,6 +78,12 @@ export default {
     Grid,
     GridItem,
     NewsletterForm,
+  },
+
+  computed: {
+    apps() {
+      return this.$static.apps.edges.map(edge => edge.node)
+    },
   },
 }
 </script>

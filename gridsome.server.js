@@ -5,12 +5,30 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const globby = require('globby')
+
+const apps = globby.sync('./src/apps/**/*.js')
+  .map(path => require(path))
+  .filter(app => !app.debug)
+
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+    const appCollection = addCollection({ typeName: 'App' })
+
+    apps.forEach(app => {
+      appCollection.addNode(app)
+    })
   })
 
   api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+    apps.forEach(app => {
+      createPage({
+        path: `/app/${app.id}`,
+        component: './src/templates/App/index.vue',
+        context: {
+          app,
+        },
+      })
+    })
   })
 }

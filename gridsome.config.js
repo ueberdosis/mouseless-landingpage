@@ -19,7 +19,6 @@ function addStyleResource(rule) {
 module.exports = {
   siteName: 'Mouseless',
   titleTemplate: 'Mouseless',
-  plugins: [],
   icon: './src/assets/images/favicon.png',
   port: 3000,
   chainWebpack(config) {
