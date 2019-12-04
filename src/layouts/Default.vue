@@ -1,5 +1,5 @@
 <template>
-  <div class="app" v-if="isClient">
+  <div class="app">
     <!-- <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
