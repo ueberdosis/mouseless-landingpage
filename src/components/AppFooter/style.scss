@@ -1,19 +1,41 @@
 .app-footer {
-  border-top: 2px solid rgba($colorWhite, 0.1);
-  padding-top: 2rem;
+  
+  &__section {
+    padding: 2rem 0;
+    border-top: 2px solid rgba($colorWhite, 0.1);
+  }
+
+  &__apps {
+    column-gap: 2.5rem;
+
+    @media screen and (min-width: 500px) {
+      column-count: 2;
+    }
+    
+    @media screen and (min-width: 900px) {
+      column-count: 4;
+    }
+  }
+
+  &__app {
+    display: inline-block;
+    width: 100%;
+    margin: 0.4rem 0;
+  }
+
+  ul li a,
+  &__apps a {
+    text-decoration: none;
+    &:hover {
+      color: $colorWhite;
+    }
+  }
 
   ul {
     list-style: none;
 
     li {
       margin: 0.4rem 0;
-
-      a {
-        text-decoration: none;
-        &:hover {
-          color: $colorWhite;
-        }
-      }
     }
   }
 }
