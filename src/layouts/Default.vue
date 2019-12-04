@@ -34,7 +34,6 @@ query {
 </static-query>
 
 <script>
-import Banner from '@/components/Banner'
 // import ProductHuntBar from '@/components/ProductHuntBar'
 import Navigation from '@/components/Navigation'
 import AppSection from '@/components/AppSection'
