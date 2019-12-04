@@ -109,7 +109,7 @@
           </p>
         </template>
         <template v-slot:media>
-          <flipping-logos />
+          <flipping-logos v-if="isClient" />
         </template>
       </split>
     </app-section>
