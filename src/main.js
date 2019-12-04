@@ -75,10 +75,6 @@ export default function (Vue, { router, head, isClient }) {
         return 'https://gum.co/Dwka'
       },
     },
-
-    mounted() {
-      console.log('isClient', this.isClient)
-    },
   })
 
   Vue.component('Layout', DefaultLayout)

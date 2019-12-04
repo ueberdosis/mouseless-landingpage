@@ -63,12 +63,12 @@
 </template>
 
 <script>
-import Countdown from '@chenfengyuan/vue-countdown'
+// import Countdown from '@chenfengyuan/vue-countdown'
 import Btn from '@/components/Btn'
 
 export default {
   components: {
-    Countdown,
+    Countdown: () => import('@chenfengyuan/vue-countdown'),
     Btn,
   },
 
