@@ -12,11 +12,10 @@
           <g-image class="app-page__flag" src="~/assets/images/UK.png" />
           <div>
             The following shortcuts are optimized for english keyboard layouts.
-            The
             <g-link to="/">
-              Mouseless app
+              Mouseless
             </g-link>
-            will convert these to your currently used keyboard.
+            converts these shortcuts to your currently used keyboard.
           </div>
         </div>
       </div>
