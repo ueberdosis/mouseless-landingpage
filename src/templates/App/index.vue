@@ -14,7 +14,7 @@
             The following shortcuts are optimized for english keyboard layouts.
             <!-- eslint-disable-next-line -->
             <g-link to="/">Mouseless</g-link>
-            converts these shortcuts to your currently used keyboard.
+            converts these shortcuts based on your currently used keyboard.
           </div>
         </div>
       </div>
