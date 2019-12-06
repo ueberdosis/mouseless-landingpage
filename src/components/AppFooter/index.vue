@@ -2,7 +2,7 @@
   <div class="app-footer small">
     <div class="app-footer__section app-footer__apps">
       <div class="app-footer__app" v-for="app in apps" :key="app.id">
-        <g-link :to="`/${app.id}-keyboard-shortcuts`">
+        <g-link :to="app.path">
           {{ app.title }} Shortcuts
         </g-link>
       </div>
@@ -65,6 +65,7 @@ query {
       node {
         id
         title
+        path
       }
     }
   }

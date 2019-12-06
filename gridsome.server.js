@@ -10,6 +10,10 @@ const globby = require('globby')
 const apps = globby.sync('./src/apps/**/*.js')
   .map(path => require(path))
   .filter(app => !app.debug)
+  .map(app => ({
+    ...app,
+    path: `/${app.id}-keyboard-shortcuts`,
+  }))
 
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
@@ -23,7 +27,7 @@ module.exports = function (api) {
   api.createPages(({ createPage }) => {
     apps.forEach(app => {
       createPage({
-        path: `/${app.id}-keyboard-shortcuts`,
+        path: app.path,
         component: './src/templates/App/index.vue',
         context: {
           app,
