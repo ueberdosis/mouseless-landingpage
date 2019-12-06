@@ -2,7 +2,7 @@
   <div class="app">
     <!-- <product-hunt-bar /> -->
     <header class="app__header">
-      <navigation />
+      <navigation :theme="navigationTheme" />
     </header>
     <main class="app__content">
       <slot />
@@ -22,6 +22,13 @@ import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
 
 export default {
+  props: {
+    navigationTheme: {
+      default: 'dark',
+      type: String,
+    },
+  },
+
   components: {
     Navigation,
     AppSection,

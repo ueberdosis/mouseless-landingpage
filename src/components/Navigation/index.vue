@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div :class="`navigation navigation--${theme}`">
     <div class="navigation__inner">
       <g-link class="navigation__logo" to="/">
         <img class="navigation__icon" src="~@/assets/images/logo.png" alt="Icon">
@@ -31,6 +31,13 @@
 import Icon from '@/components/Icon'
 
 export default {
+  props: {
+    theme: {
+      default: 'dark',
+      type: String,
+    },
+  },
+
   components: {
     Icon,
   },

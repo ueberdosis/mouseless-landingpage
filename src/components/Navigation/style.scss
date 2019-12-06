@@ -6,6 +6,10 @@
   width: 100%;
   color: $colorBlack;
 
+  &--bright {
+    color: $colorWhite;
+  }
+
   &__inner {
     display: flex;
     align-items: center;
@@ -71,5 +75,9 @@
         display: none;
       }
     }
+  }
+
+  &--bright &__link:hover {
+    background-color: rgba($colorWhite, 0.05)
   }
 }

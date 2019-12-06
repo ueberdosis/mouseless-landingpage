@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout navigation-theme="bright">
     <app-section>
       <h1>
         {{ app.title }}
