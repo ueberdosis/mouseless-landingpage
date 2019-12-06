@@ -182,8 +182,7 @@
           </accordion>
           <accordion title="Is there a Windows app?">
             <p>
-              Nope, not for now. But <a href="mailto:support@mouseless.app">give us a shout</a>
-              and we’ll consider it.
+              Nope, not for now. But give us a shout and we’ll consider it.
             </p>
           </accordion>
           <accordion title="Something’s wrong. How do I get in touch?">
