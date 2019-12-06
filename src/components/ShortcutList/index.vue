@@ -1,6 +1,6 @@
 <template>
   <div class="shortcut-lists">
-    <div class="shortcut-lists__set" v-for="set in sets" :key="set.id">
+    <div class="shortcut-lists__set" v-for="set in formattedSets" :key="set.id">
       <h3 class="shortcut-lists__set-title">
         {{ set.title }}
       </h3>
@@ -8,8 +8,16 @@
         <span class="shortcut-lists__shortcut-title">
           {{ shortcut.title }}
         </span>
-        <span class="shortcut-lists__shortcut-keys">
-          <key v-for="(key, keyIndex) in shortcut.keys" :name="key" :key="keyIndex" />
+        <span class="shortcut-lists__shortcut-groups">
+          <span
+            class="shortcut-lists__shortcut-group"
+            v-for="(group, groupIndex) in getGroups(shortcut.keys)"
+            :key="groupIndex"
+          >
+            <span class="shortcut-lists__shortcut-keys">
+              <key v-for="(key, keyIndex) in group" :name="key" :key="keyIndex" />
+            </span>
+          </span>
         </span>
       </div>
     </div>
@@ -29,6 +37,31 @@ export default {
 
   components: {
     Key,
+  },
+
+  computed: {
+    formattedSets() {
+      // return this.sets
+      return this.sets.map(set => set)
+    },
+  },
+
+  methods: {
+    getGroups(data) {
+      return this.getArrayDepth(data) > 1 ? data : [data]
+    },
+
+    getArrayDepth(value) {
+      if (!Array.isArray(value)) {
+        return 0
+      }
+
+      if (!value.length) {
+        return 1
+      }
+
+      return 1 + Math.max(...value.map(this.getArrayDepth))
+    },
   },
 }
 </script>

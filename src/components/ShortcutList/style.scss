@@ -29,4 +29,20 @@
     white-space: nowrap;
   }
 
+  &__shortcut-groups {
+    white-space: nowrap;
+  }
+
+  &__shortcut-group {
+    &::after {
+      content: 'or';
+      padding: 0 0.5rem;
+      font-size: 1rem;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+
 }
