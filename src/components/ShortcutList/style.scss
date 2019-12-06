@@ -1,0 +1,32 @@
+.shortcut-lists {
+
+  &__set {
+    margin-bottom: 3rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__set-title {
+    border-bottom: 2px solid rgba($colorWhite, 0.1);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  &__shortcut {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__shortcut-keys {
+    white-space: nowrap;
+  }
+
+}

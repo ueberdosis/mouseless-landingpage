@@ -57,6 +57,40 @@ export default function (Vue, { router, head, isClient }) {
     content: 'summary',
   })
 
+  Vue.filter('key', name => {
+    const formats = {
+      CapsLock: '⇪',
+      Shift: '⇧',
+      Control: '⌃',
+      Alt: '⌥',
+      Meta: '⌘',
+      ArrowUp: '↑',
+      ArrowRight: '→',
+      ArrowDown: '↓',
+      ArrowLeft: '←',
+      Enter: '↩',
+      Backspace: '⌫',
+      Delete: '⌦',
+      Escape: '⎋',
+      Tab: '⇥',
+      PageUp: '⇞',
+      PageDown: '⇟',
+      Space: '␣',
+    }
+
+    return formats[name] ? formats[name] : name
+  })
+
+  Vue.filter('uppercase', value => {
+    const ignoredCharacters = ['ß']
+
+    if (ignoredCharacters.includes(value)) {
+      return value
+    }
+
+    return value.toUpperCase()
+  })
+
   Vue.mixin({
     data() {
       return {
