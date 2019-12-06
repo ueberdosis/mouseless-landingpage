@@ -8,6 +8,17 @@
         <p v-if="app.description">
           {{ app.description }}
         </p>
+        <div class="app-page__hint">
+          <g-image class="app-page__flag" src="~/assets/images/UK.png" />
+          <div>
+            The following shortcuts are optimized for english keyboard layouts.
+            The
+            <g-link to="/">
+              Mouseless app
+            </g-link>
+            will convert these to your currently used keyboard.
+          </div>
+        </div>
       </div>
     </app-section>
     <app-section>
