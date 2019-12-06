@@ -12,9 +12,8 @@
           <g-image class="app-page__flag" src="~/assets/images/UK.png" />
           <div>
             The following shortcuts are optimized for english keyboard layouts.
-            <g-link to="/">
-              Mouseless
-            </g-link>
+            <!-- eslint-disable-next-line -->
+            <g-link to="/">Mouseless</g-link>
             converts these shortcuts to your currently used keyboard.
           </div>
         </div>
