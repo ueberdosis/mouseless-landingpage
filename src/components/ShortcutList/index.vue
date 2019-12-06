@@ -4,22 +4,28 @@
       <h3 class="shortcut-lists__set-title">
         {{ set.title }}
       </h3>
-      <div class="shortcut-lists__shortcut" v-for="(shortcut, index) in set.shortcuts" :key="index">
-        <span class="shortcut-lists__shortcut-title">
-          {{ shortcut.title }}
-        </span>
-        <span class="shortcut-lists__shortcut-groups">
-          <span
-            class="shortcut-lists__shortcut-group"
-            v-for="(group, groupIndex) in getGroups(shortcut.keys)"
-            :key="groupIndex"
-          >
-            <span class="shortcut-lists__shortcut-keys">
-              <key v-for="(key, keyIndex) in group" :name="key" :key="keyIndex" />
+      <ul class="shortcut-lists__shortcuts">
+        <li
+          class="shortcut-lists__shortcut"
+          v-for="(shortcut, index) in set.shortcuts"
+          :key="index"
+        >
+          <span class="shortcut-lists__shortcut-title">
+            {{ shortcut.title }}
+          </span>
+          <span class="shortcut-lists__shortcut-groups">
+            <span
+              class="shortcut-lists__shortcut-group"
+              v-for="(group, groupIndex) in getGroups(shortcut.keys)"
+              :key="groupIndex"
+            >
+              <span class="shortcut-lists__shortcut-keys">
+                <key v-for="(key, keyIndex) in group" :name="key" :key="keyIndex" />
+              </span>
             </span>
           </span>
-        </span>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </template>

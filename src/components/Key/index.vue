@@ -1,7 +1,7 @@
 <template>
-  <div class="small-key" :title="name">
+  <kbd class="small-key" :title="name">
     {{ name | key | uppercase }}
-  </div>
+  </kbd>
 </template>
 
 <script>

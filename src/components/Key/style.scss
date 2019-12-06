@@ -2,19 +2,27 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.75rem;
+  min-width: 1.5rem;
   padding: 0 3px;
-  height: 2.75rem;
-  font-size: 1.15rem;
+  height: 1.5rem;
+  font: inherit;
+  font-size: 0.9rem;
   font-weight: 700;
   color: rgba($colorWhite, 0.7);
   line-height: 1;
   border-radius: 6px;
   background-color: rgba($colorWhite, 0.1);
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   transition: color 0.1s $ease;
 
   &:first-child {
     margin-left: 0;
+  }
+
+  @media screen and (min-width: 500px) {
+    font-size: 1.15rem;
+    min-width: 2.75rem;
+    height: 2.75rem;
+    margin-left: 0.5rem;
   }
 }
