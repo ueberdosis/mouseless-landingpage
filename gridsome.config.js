@@ -18,9 +18,15 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: 'Mouseless',
+  siteUrl: 'https://mouseless.app/',
   titleTemplate: 'Mouseless',
   icon: './src/assets/images/favicon.png',
   port: 3000,
+  plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+    },
+  ],
   chainWebpack(config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
