@@ -23,7 +23,7 @@ module.exports = function (api) {
   api.createPages(({ createPage }) => {
     apps.forEach(app => {
       createPage({
-        path: `/app/${app.id}`,
+        path: `/${app.id}-keyboard-shortcuts`,
         component: './src/templates/App/index.vue',
         context: {
           app,

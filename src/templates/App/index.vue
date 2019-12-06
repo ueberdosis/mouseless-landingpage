@@ -1,10 +1,16 @@
 <template>
   <Layout navigation-theme="bright">
     <app-section>
-      <h1>
-        {{ app.title }}
-      </h1>
-      <shortcut-list :sets="app.sets" />
+      <div class="app-page">
+        <h1>
+          {{ app.title }}
+        </h1>
+      </div>
+    </app-section>
+    <app-section>
+      <div class="app-page">
+        <shortcut-list :sets="app.sets" />
+      </div>
     </app-section>
   </Layout>
 </template>
@@ -26,3 +32,5 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" src="./style.scss" scoped></style>
