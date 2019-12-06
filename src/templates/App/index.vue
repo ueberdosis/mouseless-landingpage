@@ -5,6 +5,9 @@
         <h1>
           {{ app.title }}
         </h1>
+        <p v-if="app.description">
+          {{ app.description }}
+        </p>
       </div>
     </app-section>
     <app-section>
