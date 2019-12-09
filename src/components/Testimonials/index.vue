@@ -7,7 +7,7 @@
         v-for="(item, index) in items"
         slot="slide"
       >
-        <img class="testimonials__image" :src="item.avatar" alt="">
+        <g-image class="testimonials__image" :src="item.avatar" />
         <div class="testimonials__content">
           <div class="testimonials__text small">
             {{ item.text }}
@@ -33,17 +33,17 @@ export default {
     return {
       items: [
         {
-          avatar: 'https://pbs.twimg.com/profile_images/1135575091109158913/f-4CiRhG_400x400.jpg',
+          avatar: require('~/assets/images/avatars/brianlovin.jpg'),
           title: 'Brian Lovin, GitHub',
           text: 'OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic. OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic. OMG. Thi is the best app I’ve ever seen.',
         },
         {
-          avatar: 'https://pbs.twimg.com/profile_images/1135575091109158913/f-4CiRhG_400x400.jpg',
+          avatar: require('~/assets/images/avatars/brianlovin.jpg'),
           title: 'Brian Lovin, GitHub',
           text: 'OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic. OMG. Thi is the best app I’ve ever seen.',
         },
         {
-          avatar: 'https://pbs.twimg.com/profile_images/1135575091109158913/f-4CiRhG_400x400.jpg',
+          avatar: require('~/assets/images/avatars/brianlovin.jpg'),
           title: 'Brian Lovin, GitHub',
           text: 'OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic. OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic. OMG. Thi is the best app I’ve ever seen. It’s brilliant. It’s fantastic.',
         },
