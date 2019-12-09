@@ -8,6 +8,10 @@
       <slot />
 
       <app-section>
+        <testimonials />
+      </app-section>
+
+      <app-section>
         <call-to-action>
           <h2>
             Get it done faster
@@ -111,6 +115,7 @@ import AppFooter from '@/components/AppFooter'
 import Accordion from '@/components/Accordion'
 import CountdownButton from '@/components/CountdownButton'
 import CallToAction from '@/components/CallToAction'
+import Testimonials from '@/components/Testimonials'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
@@ -128,6 +133,7 @@ export default {
     Accordion,
     CountdownButton,
     CallToAction,
+    Testimonials,
     Grid,
     GridItem,
   },

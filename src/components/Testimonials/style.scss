@@ -1,0 +1,48 @@
+.testimonials {
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30rem;
+    background-color: rgba($colorWhite, 0.1);
+    border-radius: 20px;
+    padding: 0 2rem 2rem 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    opacity: 0.5;
+    transition: opacity 0.2s $ease;
+
+    &.swiper-slide-active {
+      opacity: 1;
+    }
+  }
+
+  &__image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    
+  }
+
+  &__title {
+    color: $colorWhite;
+  }
+
+}
