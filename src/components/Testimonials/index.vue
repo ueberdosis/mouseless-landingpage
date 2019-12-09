@@ -1,5 +1,13 @@
 <template>
   <div class="testimonials">
+    <div class="testimonials__header">
+      <h2>
+        Feedback
+      </h2>
+      <p>
+        Our users love Mouseless. Here's what they are saying:
+      </p>
+    </div>
     <slider>
       <div
         class="testimonials__item"

@@ -8,9 +8,6 @@
       <slot />
 
       <app-section>
-        <!-- <h2>
-          Feedback
-        </h2> -->
         <testimonials />
       </app-section>
 
