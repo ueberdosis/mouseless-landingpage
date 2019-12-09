@@ -109,7 +109,7 @@ export default {
         {
           avatar: require('~/assets/images/avatars/fallback.png'),
           text: "Really love the sets, I'm already learning and remembering new tricks after just a couple days.",
-          title: 'Someone in the support chat',
+          title: 'Happy customer',
         },
       ]).shuffle().toArray(),
     }
