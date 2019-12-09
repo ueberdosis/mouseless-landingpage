@@ -54,7 +54,7 @@
               <p>
                 For macOS 10.15 (Catalina) the screen recording permission
                 in “System Preferences › Security & Privacy › Privacy › Screen Recording”
-                is required too. Don’t worry – we don’t record your screen.
+                is required too. Don’t worry—we don’t record your screen.
               </p>
             </accordion>
             <accordion title="Is there a Windows app?">
@@ -71,13 +71,13 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="I can’t find my favorite app. Will you update Mouseless?">
               <p>
-                Hm, we might.
-                <a href="mailto:support@mouseless.app">Get in touch</a> so we know how to improve!
+                Sure,
+                <a href="mailto:support@mouseless.app">get in touch</a> so we know how to improve!
               </p>
             </accordion>
             <accordion title="Can I ditch my mouse for good?">
               <p>
-                Noooooo! Mouseless is not about getting rid of your mouse—you’ll always need it! But you’ll spend less time with mouse clicking.
+                Nooo! Mouseless is not about getting rid of your mouse—you’ll always need it! But you’ll spend less time with mouse clicking.
               </p>
             </accordion>
             <accordion title="How long does it take before I see results?">
