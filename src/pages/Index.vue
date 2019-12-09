@@ -9,7 +9,7 @@
           Wading through shortcuts, and it’s too hard to remember any?
           Get those keystrokes ingrained in your muscle memory for good.
         </p>
-        <countdown-button />
+        <countdown-button :show-price="false" />
       </banner>
     </app-section>
 

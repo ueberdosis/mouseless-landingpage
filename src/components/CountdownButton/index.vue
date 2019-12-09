@@ -46,12 +46,14 @@
         </countdown>
       </client-only>
       <btn :href="gumroadLink" target="_blank" class="countdown-button__button">
-        Buy for
         <template v-if="activeDiscount">
-          <s>$20</s> <span class="countdown-button__price green">$15</span>
+          Buy for <s>$20</s> <span class="countdown-button__price green">$15</span>
+        </template>
+        <template v-else-if="showPrice">
+          Buy for $20
         </template>
         <template v-else>
-          $20
+          Get it now
         </template>
       </btn>
     </div>
@@ -72,6 +74,13 @@ export default {
   components: {
     Countdown,
     Btn,
+  },
+
+  props: {
+    showPrice: {
+      default: true,
+      type: Boolean,
+    },
   },
 
   filters: {
