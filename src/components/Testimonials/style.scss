@@ -8,6 +8,14 @@
     text-align: center;
   }
 
+  &__ratings {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6rem;
+    height: auto;
+    margin: 1rem 0;
+  }
+
   &__item {
     display: flex;
     flex-direction: column;

@@ -3,6 +3,7 @@
     <div class="testimonials__header">
       <h2>
         Feedback
+        <g-image class="testimonials__ratings" src="~/assets/images/producthuntratings.svg" />
       </h2>
       <p>
         Our users love Mouseless. Here's what they are saying:
