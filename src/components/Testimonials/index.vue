@@ -20,7 +20,7 @@
       >
         <g-image class="testimonials__image" :src="item.avatar" v-if="item.avatar" />
         <div class="testimonials__content">
-          <div class="testimonials__text" :class="{ small: item.text.length > 100 }">
+          <div class="testimonials__text" :class="{ small: item.isSmall }">
             {{ item.text }}
           </div>
         </div>
@@ -114,7 +114,13 @@ export default {
           text: "Really love the sets, I'm already learning and remembering new tricks after just a couple days.",
           title: 'Happy customer',
         },
-      ]).shuffle().toArray(),
+      ])
+        .map(item => ({
+          ...item,
+          isSmall: item.text.length > 100,
+        }))
+        .shuffle()
+        .toArray(),
     }
   },
 }
