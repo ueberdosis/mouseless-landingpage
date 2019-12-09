@@ -9,7 +9,7 @@
       >
         <g-image class="testimonials__image" :src="item.avatar" v-if="item.avatar" />
         <div class="testimonials__content">
-          <div class="testimonials__text small">
+          <div class="testimonials__text" :class="{ small: item.text.length > 100 }">
             {{ item.text }}
           </div>
         </div>
@@ -99,7 +99,7 @@ export default {
           title: 'Diogo Redin, Talkdesk',
         },
         {
-          avatar: require('~/assets/images/avatars/brianlovin.jpg'),
+          avatar: require('~/assets/images/avatars/fallback.png'),
           text: "Really love the sets, I'm already learning and remembering new tricks after just a couple days.",
           title: 'Someone in the support chat',
         },

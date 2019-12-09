@@ -42,7 +42,7 @@ export default {
     },
 
     delay: {
-      default: 2500,
+      default: 4000,
       type: Number,
     },
   },
