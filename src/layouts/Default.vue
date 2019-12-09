@@ -33,8 +33,8 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="Is there a list of supported apps?">
               <p>
-                Gmail, Slack, Adobe XD, Figma, Sketch, VS Code, Bear,
-                Google Docs, iA Writer, Notion, Things, Trello, Chrome, Finder, Firefox, macOS.
+                Mouseless comes with exercises for Gmail, Slack, Adobe XD, Figma, Sketch, VS Code, Bear,
+                Google Docs, iA Writer, Notion, Things, Trello, Chrome, Finder, Firefox and macOS.
               </p>
               <p>
                 However, the menu bar dropdown supports every app that is currently open.
@@ -42,8 +42,8 @@
             </accordion>
             <accordion title="Do you offer a trial?">
               <p>
-                We didn't implement a trial yet, but no worries - feel free to purchase the app.
-                If it's not for you send a short message. We'll refund your order.
+                We didn’t implement a trial yet, but no worries—feel free to purchase the app.
+                If it’s not for you send a short message. We’ll refund your order.
               </p>
             </accordion>
             <accordion title="The menubar app doesn’t work. What can I do?">
@@ -77,8 +77,7 @@
             </accordion>
             <accordion title="Can I ditch my mouse for good?">
               <p>
-                Noooooo! Mouseless is not about getting rid of your mouse –
-                you’ll always need it! But you’ll spend less time with mouse clicking.
+                Noooooo! Mouseless is not about getting rid of your mouse—you’ll always need it! But you’ll spend less time with mouse clicking.
               </p>
             </accordion>
             <accordion title="How long does it take before I see results?">

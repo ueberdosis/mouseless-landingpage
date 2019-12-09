@@ -1,7 +1,7 @@
 <template>
   <a class="product-hunt-bar" href="https://www.producthunt.com/posts/mouseless" target="_blank">
     <div class="product-hunt-bar__text">
-      We're live on ProductHunt!
+      We’re live on ProductHunt!
     </div>
     <div class="product-hunt-bar__button">
       Join the discussion
