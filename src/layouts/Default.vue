@@ -8,7 +8,9 @@
       <slot />
 
       <app-section>
-        <testimonials />
+        <client-only>
+          <testimonials />
+        </client-only>
       </app-section>
 
       <app-section>
