@@ -11,7 +11,7 @@
         <div class="app-page__hint">
           <g-image class="app-page__flag" src="~/assets/images/UK.png" />
           <div>
-            All keyboard shortcuts are optimized for the English keyboard layout on macOS.
+            All listed keyboard shortcuts are optimized for the English keyboard layout.
             <!-- eslint-disable-next-line -->
             <g-link to="/">Mouseless</g-link> is clever enough to
             show the exact keys according to your layout.
