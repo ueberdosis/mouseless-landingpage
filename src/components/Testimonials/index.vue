@@ -96,8 +96,8 @@ export default {
         },
         {
           avatar: require('~/assets/images/avatars/suryaanand.jpg'),
-          text: 'Wow, such a great experience so far. I already learned a lot of shortcuts. It would be a game-changer!',
-          title: 'Surya Anand, Designcode.io',
+          text: 'Wow, such a great experience so far. I already learned a lot of shortcuts. It will be a game-changer!',
+          title: 'Surya Anand, Design+Code',
         },
         {
           avatar: require('~/assets/images/avatars/erikspiekermann.jpg'),
@@ -112,7 +112,7 @@ export default {
         {
           avatar: require('~/assets/images/avatars/fallback.png'),
           text: "Really love the sets, I'm already learning and remembering new tricks after just a couple days.",
-          title: 'Happy customer',
+          title: 'Happy Customer',
         },
       ])
         .map(item => ({
