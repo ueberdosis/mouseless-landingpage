@@ -3,7 +3,7 @@
     <app-section>
       <div class="app-page">
         <h1>
-          Keyboard Shortcuts for {{ app.title }}
+          {{ title }}
         </h1>
         <p v-if="app.description">
           {{ app.description }}
@@ -40,6 +40,16 @@ export default {
     app() {
       return this.$context.app
     },
+
+    title() {
+      return `Keyboard Shortcuts for ${this.app.title}`
+    },
+  },
+
+  metaInfo() {
+    return {
+      title: this.title,
+    }
   },
 }
 </script>

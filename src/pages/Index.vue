@@ -162,5 +162,9 @@ export default {
     Grid,
     GridItem,
   },
+
+  metaInfo: {
+    title: 'Mouseless',
+  },
 }
 </script>

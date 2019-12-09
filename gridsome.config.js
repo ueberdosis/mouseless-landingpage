@@ -19,7 +19,7 @@ function addStyleResource(rule) {
 module.exports = {
   siteName: 'Mouseless',
   siteUrl: 'https://mouseless.app/',
-  titleTemplate: 'Mouseless',
+  titleTemplate: '%s',
   icon: './src/assets/images/favicon.png',
   port: 3000,
   plugins: [
