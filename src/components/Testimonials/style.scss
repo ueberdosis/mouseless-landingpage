@@ -6,13 +6,18 @@
     align-items: center;
     text-align: center;
     width: 30rem;
+    max-width: 100%;
     background-color: rgba($colorWhite, 0.1);
     border-radius: 20px;
     padding: 0 2rem 2rem 2rem;
-    margin-right: 2rem;
-    margin-top: 3rem;
+    margin: 3rem 0.5rem 0 0.5rem;
     opacity: 0.5;
     transition: opacity 0.2s $ease;
+
+    @media screen and (min-width: 500px) {
+      padding: 0 3rem 3rem 3rem;
+      margin: 3rem 1rem 0 1rem;
+    }
 
     &.swiper-slide-active {
       opacity: 1;
@@ -26,6 +31,11 @@
     border-radius: 50%;
     margin-top: -3rem;
     margin-bottom: 2rem;
+
+    @media screen and (min-width: 500px) {
+      width: 8rem;
+      height: 8rem;
+    }
   }
 
   &__content {
