@@ -8,7 +8,7 @@
         </a>
       </h2>
       <p>
-        Our users love Mouseless. Here’s what they are saying:
+        Take our word for it or see what others are saying:
       </p>
     </div>
     <slider>
@@ -49,11 +49,11 @@ export default {
           text: 'I love everything about your product. The simple problem you’re solving so beautifully. The care, with which the assets (the app icon 🥰) as well as the animations and basically everything else is designed. Amazing work!!!!!!!!!!!!!!!!!!!!!!!!!!',
           title: 'Ruben Alexander Dreymann',
         },
-        {
-          avatar: require('~/assets/images/avatars/fallback.png'),
-          text: 'Just bought your wonderful app.',
-          title: 'Emil S. Zakhariev',
-        },
+        // {
+        //   avatar: require('~/assets/images/avatars/fallback.png'),
+        //   text: 'Just bought your wonderful app.',
+        //   title: 'Emil S. Zakhariev',
+        // },
         {
           avatar: require('~/assets/images/avatars/fallback.png'),
           text: 'Solllid.',
@@ -61,7 +61,7 @@ export default {
         },
         {
           avatar: require('~/assets/images/avatars/fallback.png'),
-          text: "Just purchased Mouseless and am loving it so far, have already mastered a few of the apple commands that I didn't know existed.",
+          text: "Just purchased Mouseless and am loving it so far, have already mastered a few of the Apple commands that I didn't know existed.",
           title: 'Crystal Lin',
         },
         {
@@ -76,13 +76,13 @@ export default {
         },
         {
           avatar: require('~/assets/images/avatars/temirlannugmanov.jpg'),
-          text: 'Found on @producthunt & bought mouseless.app by @hanspagel & @_philippkuehn on on @Gumroad. Must train my meatsticks to never use the trackpad',
+          text: 'Found on @producthunt & bought Mouseless by @hanspagel & @_philippkuehn on @Gumroad. Must train my meatsticks to never use the trackpad.',
           title: 'Temirlan Nugmanov',
         },
         {
           avatar: require('~/assets/images/avatars/marckoehlbrugge.jpg'),
           text: 'This is such a great idea for an app. Instant buy 👍',
-          title: 'Marc Köhlbrugge, wip.chat',
+          title: 'Marc Köhlbrugge, WIP',
         },
         {
           avatar: require('~/assets/images/avatars/brianlovin.jpg'),
@@ -92,7 +92,7 @@ export default {
         {
           avatar: require('~/assets/images/avatars/jamesm.jpg'),
           text: 'Such a great little app! Insta-buy. 🙌',
-          title: 'James M, Wireframe',
+          title: 'James, wirefr.am',
         },
         {
           avatar: require('~/assets/images/avatars/suryaanand.jpg'),
@@ -106,7 +106,7 @@ export default {
         },
         {
           avatar: require('~/assets/images/avatars/diogoredin.jpg'),
-          text: 'I have been wanting to train keyboard shortcuts for so long. Congrats @hanspagel, great product 🎉 Will definitely buy it. floatie.app/mouseless',
+          text: 'I have been wanting to train keyboard shortcuts for so long. Congrats @hanspagel, great product 🎉 Will definitely buy it.',
           title: 'Diogo Redin, Talkdesk',
         },
         {
