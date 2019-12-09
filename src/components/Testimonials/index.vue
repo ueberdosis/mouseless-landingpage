@@ -3,10 +3,12 @@
     <div class="testimonials__header">
       <h2>
         Feedback
-        <g-image class="testimonials__ratings" src="~/assets/images/producthuntratings.svg" />
+        <a href="https://www.producthunt.com/posts/mouseless" target="_blank">
+          <g-image class="testimonials__ratings" src="~/assets/images/producthuntratings.svg" />
+        </a>
       </h2>
       <p>
-        Our users love Mouseless. Here's what they are saying:
+        Our users love Mouseless. Here’s what they are saying:
       </p>
     </div>
     <slider>
