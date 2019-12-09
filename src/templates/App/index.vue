@@ -3,7 +3,7 @@
     <app-section>
       <div class="app-page">
         <h1>
-          {{ app.title }}
+          Keyboard Shortcuts for {{ app.title }}
         </h1>
         <p v-if="app.description">
           {{ app.description }}
@@ -11,10 +11,10 @@
         <div class="app-page__hint">
           <g-image class="app-page__flag" src="~/assets/images/UK.png" />
           <div>
-            The following shortcuts are optimized for english keyboard layouts.
+            All keyboard shortcuts are optimized for the English keyboard layout on macOS.
             <!-- eslint-disable-next-line -->
-            <g-link to="/">Mouseless</g-link>
-            converts these shortcuts based on your currently used keyboard.
+            <g-link to="/">Mouseless</g-link> is clever enough to
+            show the exact keys according to your layout.
           </div>
         </div>
       </div>
