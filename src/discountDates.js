@@ -165,7 +165,7 @@ export default [
   },
   {
     date: '2020-01-07',
-    title: 'International Programmers\' Day',
+    title: 'International Programmers’ Day',
   },
   {
     date: '2020-01-08',
@@ -178,5 +178,145 @@ export default [
   {
     date: '2020-01-10',
     title: 'National Bittersweet Chocolate Day',
+  },
+  {
+    date: '2020-01-11',
+    title: 'World Sketchnote Day',
+  },
+  {
+    date: '2020-01-13',
+    title: 'Rubber Duckie Day',
+  },
+  {
+    date: '2020-01-14',
+    title: 'Organize Your Home Day',
+  },
+  {
+    date: '2020-01-15',
+    title: 'Hat Day',
+  },
+  {
+    date: '2020-01-16',
+    title: 'National Do Nothing Day',
+  },
+  {
+    date: '2020-01-17',
+    title: 'Kid Inventors’ Day',
+  },
+  {
+    date: '2020-01-18',
+    title: 'Winnie The Pooh Day',
+  },
+  {
+    date: '2020-01-19',
+    title: 'Popcorn Day',
+  },
+  {
+    date: '2020-01-20',
+    title: 'Disc Jockey Day',
+  },
+  {
+    date: '2020-01-21',
+    title: 'International Hugging Day',
+  },
+  {
+    date: '2020-01-22',
+    title: 'Celebration Of Life Day',
+  },
+  {
+    date: '2020-01-23',
+    title: 'Pie Day',
+  },
+  {
+    date: '2020-01-24',
+    title: 'Belly Laugh Day',
+  },
+  {
+    date: '2020-01-25',
+    title: 'Opposite Day',
+  },
+  {
+    date: '2020-01-26',
+    title: 'Australia Day',
+  },
+  {
+    date: '2020-01-27',
+    title: 'Chocolate Cake Day',
+  },
+  {
+    date: '2020-01-28',
+    title: 'Data Privacy Day',
+  },
+  {
+    date: '2020-01-29',
+    title: 'Puzzle Day',
+  },
+  {
+    date: '2020-01-30',
+    title: 'Croissant Day',
+  },
+  {
+    date: '2020-01-31',
+    title: 'Fun At Work Day',
+  },
+  {
+    date: '2020-02-01',
+    title: 'Baked Alaska Day',
+  },
+  {
+    date: '2020-02-02',
+    title: 'Hedgehog Day',
+  },
+  {
+    date: '2020-02-03',
+    title: 'Golden Retriever Day',
+  },
+  {
+    date: '2020-02-04',
+    title: 'Sweater Day',
+  },
+  {
+    date: '2020-02-05',
+    title: 'World Nutella Day',
+  },
+  {
+    date: '2020-02-06',
+    title: 'Lame Duck Day',
+  },
+  {
+    date: '2020-02-07',
+    title: 'Working Naked Day',
+  },
+  {
+    date: '2020-02-08',
+    title: 'Kite Flying Day',
+  },
+  {
+    date: '2020-02-09',
+    title: 'Pizza Day',
+  },
+  {
+    date: '2020-02-10',
+    title: 'Clean Out Your Computer Day',
+  },
+  {
+    date: '2020-02-11',
+    title: 'Make A Friend Day',
+  },
+  {
+    date: '2020-02-12',
+    title: 'Lost Penny Day',
+  },
+  {
+    date: '2020-02-13',
+    title: 'Radio Day',
+  },
+  {
+    date: '2020-02-14',
+    title: 'Ferris Wheel Day',
+  },
+  {
+    date: '2020-02-15',
+    title: 'Hippo Day',
   },
 ]
