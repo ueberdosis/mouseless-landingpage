@@ -10,7 +10,7 @@
         </p>
         <div class="app-page__hint">
           <div>
-            All listed keyboard shortcuts are optimized for the English keyboard layout.
+            Keyboard shortcuts differ between keyboard layouts.
             <!-- eslint-disable-next-line -->
             <g-link to="/">Mouseless</g-link> is clever enough to
             show the exact keys according to your layout.
