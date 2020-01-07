@@ -95,7 +95,7 @@ export default function (Vue, { router, head, isClient }) {
     data() {
       return {
         activeDiscount: formattedDiscountDates.find(item => item.isActive),
-        downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-1.2.1-mac.dmg',
+        downloadLink: 'https://ueber.fra1.cdn.digitaloceanspaces.com/mouseless/mac/Mouseless-1.1.1-mac.dmg',
       }
     },
 
