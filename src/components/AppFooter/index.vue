@@ -28,7 +28,7 @@
             </li>
             <li>
               <a href="https://floatie.app/mouseless" target="_blank">
-                Open
+                Public Metrics
               </a>
             </li>
             <li>
