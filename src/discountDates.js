@@ -319,4 +319,13 @@ export default [
     date: '2020-02-15',
     title: 'Hippo Day',
   },
+
+  {
+    date: '2020-07-31',
+    title: 'System Administrator Appreciation Day',
+  },
+  {
+    date: '2020-11-21',
+    title: '1 Year Mouseless',
+  },
 ]
