@@ -33,8 +33,7 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="Is there a list of supported apps?">
               <p>
-                Mouseless comes with exercises for Gmail, Slack, Adobe XD, Figma, Sketch, VS Code, Bear,
-                Google Docs, iA Writer, Notion, Things, Trello, Chrome, Finder, Firefox and macOS.
+                Mouseless comes with exercises for {{ appsList }}.
               </p>
               <p>
                 However, the menu bar dropdown supports every app that is currently open.
@@ -108,6 +107,18 @@
   </div>
 </template>
 
+<static-query>
+query {
+  apps: allApp {
+    edges {
+      node {
+        title
+      }
+    }
+  }
+}
+</static-query>
+
 <script>
 // import ProductHuntBar from '@/components/ProductHuntBar'
 import Navigation from '@/components/Navigation'
@@ -137,6 +148,12 @@ export default {
     Testimonials,
     Grid,
     GridItem,
+  },
+
+  computed: {
+    appsList() {
+      return this.$static.apps.edges.map(edge => edge.node.title).join(', ')
+    },
   },
 }
 </script>
