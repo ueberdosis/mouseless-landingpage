@@ -6,6 +6,18 @@
   </div>
 </template>
 
+<static-query>
+query {
+  apps: allApp {
+    edges {
+      node {
+        id
+      }
+    }
+  }
+}
+</static-query>
+
 <script>
 import uuid from 'uuid/v4'
 import collect from 'collect.js'
@@ -18,22 +30,8 @@ export default {
 
   data() {
     return {
-      logos: [
-        'figma',
-        'vscode',
-        'slack',
-        'googledocs',
-        'finder',
-        'gmail',
-        'trello',
-        'sketch',
-        'adobexd',
-        'notion',
-        'bear',
-        'chrome',
-        'macos',
-      ],
       limit: 12,
+      logos: [],
       filteredLogos: [],
       renderedLogos: [],
     }
@@ -64,6 +62,7 @@ export default {
   },
 
   mounted() {
+    this.logos = this.$static.apps.edges.map(edge => edge.node.id)
     this.filteredLogos = collect(this.logos)
       .shuffle()
       .take(this.limit)
