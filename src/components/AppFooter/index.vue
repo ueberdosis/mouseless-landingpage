@@ -28,18 +28,23 @@
                     Buy
                   </a>
                 </li>
-              </ul>
-            </grid-item>
-            <grid-item :options="{ medium: '6/12' }">
-              <ul>
                 <li>
                   <a href="mailto:support@mouseless.app" target="_blank">
                     Support
                   </a>
                 </li>
+              </ul>
+            </grid-item>
+            <grid-item :options="{ medium: '6/12' }">
+              <ul>
                 <li>
                   <a href="https://floatie.app/mouseless" target="_blank">
                     Public Metrics
+                  </a>
+                </li>
+                <li>
+                  <a href="/mouseless-press-kit.zip" download>
+                    Press Kit
                   </a>
                 </li>
                 <li>
