@@ -105,7 +105,7 @@
           </h2>
           <p>
             Cover the basics with shortcuts for macOS or let your fingers fly
-            in one of the 14 apps and tools you already love.
+            in one of the {{ $static.apps.edges.length }} apps and tools you already love.
           </p>
         </template>
         <template v-slot:media>
@@ -137,6 +137,18 @@
     </app-section>
   </Layout>
 </template>
+
+<static-query>
+query {
+  apps: allApp {
+    edges {
+      node {
+        id
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 import Banner from '@/components/Banner'
