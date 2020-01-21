@@ -49,7 +49,7 @@
                 </li>
                 <li>
                   <g-link to="/privacy">
-                    Privacy
+                    Privacy Policy
                   </g-link>
                 </li>
                 <li>
