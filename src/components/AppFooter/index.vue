@@ -48,9 +48,14 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://ueberdosis.io/impressum" target="_blank">
+                  <g-link to="/privacy">
+                    Privacy
+                  </g-link>
+                </li>
+                <li>
+                  <g-link to="/impressum">
                     Impressum
-                  </a>
+                  </g-link>
                 </li>
               </ul>
             </grid-item>
