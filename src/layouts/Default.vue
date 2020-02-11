@@ -70,8 +70,7 @@
           <grid-item :options="{ medium: '6/12'}">
             <accordion title="I can’t find my favorite app. Will you update Mouseless?">
               <p>
-                Sure,
-                <a href="mailto:support@mouseless.app">get in touch</a> so we know how to improve!
+                Sure, we have set up a <a href="https://feedback.mouseless.app">public feedback board</a> to gather app requests. Submit all the apps you miss or any other ideas you might have.
               </p>
             </accordion>
             <accordion title="Can I ditch my mouse for good?">

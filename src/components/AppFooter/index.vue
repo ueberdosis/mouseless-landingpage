@@ -14,9 +14,9 @@
             <grid-item :options="{ medium: '6/12' }">
               <ul>
                 <li>
-                  <g-link to="/">
-                    Features
-                  </g-link>
+                  <a href="https://feedback.mouseless.app">
+                    Feedback
+                  </a>
                 </li>
                 <li>
                   <a :href="downloadLink" download>
@@ -39,7 +39,7 @@
               <ul>
                 <li>
                   <a href="https://floatie.app/mouseless" target="_blank">
-                    Public Metrics
+                    Open Startup
                   </a>
                 </li>
                 <li>
