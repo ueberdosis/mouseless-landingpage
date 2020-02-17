@@ -7,6 +7,9 @@
       <p>
         We value your privacy and question everything that stores or processes your personal information. With that in mind, we still needed a few external services to publish Mouseless. Here is everything you need to know.
       </p>
+      <p>
+        Don’t hesitate to ask if there is something not explained: <a href="mailto:support@mouseless.app">support@mouseless.app</a>
+      </p>
       <h3>
         Netlify
       </h3>

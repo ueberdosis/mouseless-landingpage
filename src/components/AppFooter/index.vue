@@ -14,9 +14,9 @@
             <grid-item :options="{ medium: '6/12' }">
               <ul>
                 <li>
-                  <g-link to="/">
-                    Features
-                  </g-link>
+                  <a href="https://feedback.mouseless.app">
+                    Feedback
+                  </a>
                 </li>
                 <li>
                   <a :href="downloadLink" download>
@@ -39,7 +39,7 @@
               <ul>
                 <li>
                   <a href="https://floatie.app/mouseless" target="_blank">
-                    Public Metrics
+                    Open Startup
                   </a>
                 </li>
                 <li>
@@ -61,7 +61,7 @@
             </grid-item>
           </grid>
           <p>
-            Made with 💛 by <a href="https://twitter.com/_ueberdosis" target="_blank">überclub</a>
+            Made with 💛 by <a href="https://twitter.com/_ueberdosis" target="_blank">überdosis</a>
             · Icon designed by <a href="https://twitter.com/juliusgehrig" target="_blank">Julius Gehrig</a>
           </p>
         </grid-item>
