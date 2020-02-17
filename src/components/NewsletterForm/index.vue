@@ -1,51 +1,62 @@
 <template>
-  <mailchimp-subscribe
-    url="https://mailing.mouseless.app/subscribe/post-json"
-    user-id="1bc6d9d915dfd1f9d0950399d"
-    list-id="603ad75049"
-    @success="onSuccess"
-  >
-    <template v-slot="{ subscribe, setEmail, error, success, loading }">
-      <form class="newsletter-form" @submit.prevent="subscribe">
-        <div class="newsletter-form__content">
-          <input
-            class="newsletter-form__input"
-            type="email"
-            v-model="email"
-            @input="setEmail(email)"
-            placeholder="Your email address"
-          >
-          <button class="newsletter-form__button" :disabled="loading" type="submit">
-            Subscribe
-          </button>
-        </div>
-        <div class="newsletter-form__error" v-html="error" v-if="error" />
-        <div class="newsletter-form__success" v-if="success">
-          To complete the subscription process, please click the link in the email we just sent you.
-        </div>
-      </form>
-    </template>
-  </mailchimp-subscribe>
+  <form class="newsletter-form" @submit.prevent="onSubmit">
+    <div class="newsletter-form__content">
+      <input
+        class="newsletter-form__input"
+        type="email"
+        v-model="email"
+        placeholder="Your email address"
+      >
+      <button class="newsletter-form__button" :disabled="loading" type="submit">
+        Subscribe
+      </button>
+    </div>
+    <div class="newsletter-form__error" v-if="error">
+      {{ error }}
+    </div>
+    <div class="newsletter-form__success" v-if="success">
+      To complete the subscription process, please click the link in the email we just sent you.
+    </div>
+  </form>
 </template>
 
 <script>
-import MailchimpSubscribe from 'vue-mailchimp-subscribe'
+import axios from 'axios'
 
 export default {
-  components: {
-    MailchimpSubscribe,
-  },
-
-  methods: {
-    onSuccess() {
-      this.email = null
-    },
-  },
-
   data() {
     return {
       email: null,
+      error: null,
+      success: false,
+      loading: false,
     }
+  },
+
+  methods: {
+    onSubmit() {
+      if (this.loading || !this.email) {
+        return
+      }
+
+      this.loading = true
+
+      axios
+        .post('https://mailing.ueberdosis.io/api/subscribe/b6369ba2-0043-4938-8667-2e01b9acf331', {
+          email: this.email,
+        })
+        .then(() => {
+          this.email = null
+          this.success = true
+          this.error = null
+          this.loading = false
+        })
+        .catch(error => {
+          this.success = false
+          this.error = error?.response?.data?.errors?.email?.[0] || error?.response?.data?.message
+          this.loading = false
+        })
+    },
   },
 }
 </script>
