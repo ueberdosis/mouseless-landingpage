@@ -61,6 +61,11 @@
                 Nope, not for now. But give us a shout and we’ll consider it.
               </p>
             </accordion>
+            <accordion title="Is Mouseless available on SetApp?">
+              <p>
+                Yes, Mouseless is <a href="https://go.setapp.com/stp268?refAppID=379&utm_medium=available_on_setapp_button&utm_source=379&utm_campaign=https://mouseless.app/">part of the SetApp catalogue.</a>
+              </p>
+            </accordion>
             <accordion title="Something’s wrong. How do I get in touch?">
               <p>
                 <a href="mailto:support@mouseless.app">Drop us a line</a>, we’ll be happy to help!
