@@ -829,6 +829,130 @@ export default [
     date: '2020-06-30',
     title: 'Meteor Watch Day',
   },
+  {
+    date: '2020-07-01',
+    title: 'Joke Day',
+  },
+  {
+    date: '2020-07-02',
+    title: 'I Forgot Day',
+  },
+  {
+    date: '2020-07-03',
+    title: 'Chocolate Wafer Day',
+  },
+  {
+    date: '2020-07-04',
+    title: 'Hop A Park Day',
+  },
+  {
+    date: '2020-07-05',
+    title: 'Mechanical Pencil Day',
+  },
+  {
+    date: '2020-07-06',
+    title: 'Take Your Webmaster To Lunch Day',
+  },
+  {
+    date: '2020-07-07',
+    title: 'Chocolate Day',
+  },
+  {
+    date: '2020-07-08',
+    title: 'Math 2.0 Day',
+  },
+  {
+    date: '2020-07-09',
+    title: 'Sugar Cookie Day',
+  },
+  {
+    date: '2020-07-10',
+    title: 'Don’t Step On A Bee Day',
+  },
+  {
+    date: '2020-07-11',
+    title: 'Blueberry Muffin Day',
+  },
+  {
+    date: '2020-07-12',
+    title: 'Simplicity Day',
+  },
+  {
+    date: '2020-07-13',
+    title: 'French Fries Day',
+  },
+  {
+    date: '2020-07-14',
+    title: 'Shar Awareness Day',
+  },
+  {
+    date: '2020-07-15',
+    title: 'Gummi Worm Day',
+  },
+  {
+    date: '2020-07-16',
+    title: 'World Snake Day',
+  },
+  {
+    date: '2020-07-17',
+    title: 'World Emoji Day',
+  },
+  {
+    date: '2020-07-18',
+    title: 'Mandela Day',
+  },
+  // {
+  //   date: '2020-07-19',
+  //   title: '',
+  // },
+  {
+    date: '2020-07-20',
+    title: 'Moon Day',
+  },
+  {
+    date: '2020-07-21',
+    title: 'Junk Food Day',
+  },
+  {
+    date: '2020-07-22',
+    title: 'Mango Day',
+  },
+  {
+    date: '2020-07-23',
+    title: 'Gorgeous Grandma Day',
+  },
+  {
+    date: '2020-07-24',
+    title: 'Pioneer Day',
+  },
+  {
+    date: '2020-07-25',
+    title: 'Intern Day',
+  },
+  {
+    date: '2020-07-26',
+    title: 'All Or Nothing Day',
+  },
+  {
+    date: '2020-07-27',
+    title: 'Walk On Stilts Day',
+  },
+  {
+    date: '2020-07-28',
+    title: 'Milk Chocolate Day',
+  },
+  {
+    date: '2020-07-29',
+    title: 'Rain Day',
+  },
+  {
+    date: '2020-07-30',
+    title: 'Share a Hug Day',
+  },
+  {
+    date: '2020-07-31',
+    title: 'Raspberry Cake Day',
+  },
 
   {
     date: '2020-07-31',
