@@ -709,6 +709,126 @@ export default [
     date: '2020-05-31',
     title: 'Web Designer Day',
   },
+  {
+    date: '2020-06-01',
+    title: 'World Milk Day',
+  },
+  {
+    date: '2020-06-02',
+    title: 'Leave The Office Earlier Day',
+  },
+  {
+    date: '2020-06-03',
+    title: 'Repeat Day',
+  },
+  {
+    date: '2020-06-04',
+    title: 'Hug Your Cat Day',
+  },
+  {
+    date: '2020-06-05',
+    title: 'Coworking Day',
+  },
+  {
+    date: '2020-06-06',
+    title: 'Yo-Yo Day',
+  },
+  {
+    date: '2020-06-07',
+    title: 'Chocolate Ice Cream Day',
+  },
+  {
+    date: '2020-06-08',
+    title: 'World Oceans Day',
+  },
+  {
+    date: '2020-06-09',
+    title: 'Donald Duck Day',
+  },
+  {
+    date: '2020-06-10',
+    title: 'Iced Tea Day',
+  },
+  // {
+  //   date: '2020-06-11',
+  //   title: '',
+  // },
+  {
+    date: '2020-06-12',
+    title: 'Superman Day',
+  },
+  {
+    date: '2020-06-13',
+    title: 'Axe Throwing Day',
+  },
+  {
+    date: '2020-06-14',
+    title: 'Juggling Day',
+  },
+  {
+    date: '2020-06-15',
+    title: 'Nature Photography Day',
+  },
+  {
+    date: '2020-06-16',
+    title: 'Fresh Veggies Day',
+  },
+  {
+    date: '2020-06-17',
+    title: 'International Picnic Day',
+  },
+  {
+    date: '2020-06-18',
+    title: 'International Panic Day',
+  },
+  {
+    date: '2020-06-19',
+    title: 'Garfield The Cat Day',
+  },
+  {
+    date: '2020-06-20',
+    title: 'World Productivity Day',
+  },
+  {
+    date: '2020-06-21',
+    title: 'Make Music Day',
+  },
+  {
+    date: '2020-06-22',
+    title: 'Positive Media Day',
+  },
+  {
+    date: '2020-06-23',
+    title: 'Women in Engineering Day',
+  },
+  {
+    date: '2020-06-24',
+    title: 'Upcycling Day',
+  },
+  {
+    date: '2020-06-25',
+    title: 'Catfish Day',
+  },
+  {
+    date: '2020-06-26',
+    title: 'Canoe Day',
+  },
+  {
+    date: '2020-06-27',
+    title: 'Sunglasses Day',
+  },
+  {
+    date: '2020-06-28',
+    title: 'Happy Heart Hugs Day',
+  },
+  {
+    date: '2020-06-29',
+    title: 'Waffle Iron Day',
+  },
+  {
+    date: '2020-06-30',
+    title: 'Meteor Watch Day',
+  },
 
   {
     date: '2020-07-31',
