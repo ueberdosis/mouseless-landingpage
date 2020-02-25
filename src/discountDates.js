@@ -1,4 +1,5 @@
 export default [
+  // https://www.daysoftheyear.com/
   {
     date: '2019-11-21',
     title: 'Launch Day',
@@ -330,7 +331,383 @@ export default [
   },
   {
     date: '2020-02-27',
-    title: 'International Polar Bear Day',
+    title: 'International Learning Day',
+  },
+  {
+    date: '2020-02-28',
+    title: 'Tooth Fairy Day',
+  },
+  {
+    date: '2020-02-29',
+    title: 'Leap Year Day',
+  },
+  {
+    date: '2020-03-01',
+    title: 'Pig Day',
+  },
+  {
+    date: '2020-03-02',
+    title: 'Old Stuff Day',
+  },
+  {
+    date: '2020-03-03',
+    title: 'World Wildlife Day',
+  },
+  {
+    date: '2020-03-04',
+    title: 'World Maths Day',
+  },
+  {
+    date: '2020-03-05',
+    title: 'World Book Day',
+  },
+  {
+    date: '2020-03-06',
+    title: 'Employee Appreciation Day',
+  },
+  {
+    date: '2020-03-07',
+    title: 'Plant Power Day',
+  },
+  {
+    date: '2020-03-08',
+    title: 'International Women’s Day',
+  },
+  {
+    date: '2020-03-09',
+    title: 'Panic Day',
+  },
+  {
+    date: '2020-03-10',
+    title: 'Mario Day',
+  },
+  {
+    date: '2020-03-11',
+    title: 'Oatmeal Nut Waffles Day',
+  },
+  {
+    date: '2020-03-12',
+    title: 'Girl Scout Day',
+  },
+  {
+    date: '2020-03-13',
+    title: 'World Sleep Day',
+  },
+  {
+    date: '2020-03-14',
+    title: 'Science Education Day',
+  },
+  {
+    date: '2020-03-15',
+    title: 'World Speech Day',
+  },
+  {
+    date: '2020-03-16',
+    title: 'Freedom Of Information Day',
+  },
+  {
+    date: '2020-03-17',
+    title: 'Saint Patrick’s Day',
+  },
+  {
+    date: '2020-03-18',
+    title: 'Awkward Moments Day',
+  },
+  {
+    date: '2020-03-19',
+    title: 'Client’s Day',
+  },
+  {
+    date: '2020-03-20',
+    title: 'International Day of Happiness',
+  },
+  {
+    date: '2020-03-21',
+    title: 'International Day of Forests',
+  },
+  {
+    date: '2020-03-22',
+    title: 'World Water Day',
+  },
+  {
+    date: '2020-03-23',
+    title: 'Near Miss Day',
+  },
+  // {
+  //   date: '2020-03-24',
+  //   title: '',
+  // },
+  {
+    date: '2020-03-25',
+    title: 'Waffle Day',
+  },
+  {
+    date: '2020-03-26',
+    title: 'Purple Day',
+  },
+  {
+    date: '2020-03-27',
+    title: 'World Theater Day',
+  },
+  {
+    date: '2020-03-28',
+    title: 'Earth Hour',
+  },
+  {
+    date: '2020-03-29',
+    title: 'Neighbor Day',
+  },
+  {
+    date: '2020-03-30',
+    title: 'Pencil Day',
+  },
+  {
+    date: '2020-03-31',
+    title: 'World Backup Day',
+  },
+  {
+    date: '2020-04-01',
+    title: 'Fun Day',
+  },
+  {
+    date: '2020-04-02',
+    title: 'World Autism Day',
+  },
+  {
+    date: '2020-04-03',
+    title: 'Walk to Work Day',
+  },
+  {
+    date: '2020-04-04',
+    title: 'World Rat Day',
+  },
+  {
+    date: '2020-04-05',
+    title: 'Star Trek Day',
+  },
+  {
+    date: '2020-04-06',
+    title: 'World Table Tennis Day',
+  },
+  {
+    date: '2020-04-07',
+    title: 'World Health Day',
+  },
+  {
+    date: '2020-04-08',
+    title: 'Day of Pink',
+  },
+  {
+    date: '2020-04-09',
+    title: 'Unicorn Day',
+  },
+  {
+    date: '2020-04-10',
+    title: 'Sibling Day',
+  },
+  {
+    date: '2020-04-11',
+    title: 'Pet Day',
+  },
+  // {
+  //   date: '2020-04-12',
+  //   title: '',
+  // },
+  {
+    date: '2020-04-13',
+    title: 'Scrabble Day',
+  },
+  {
+    date: '2020-04-14',
+    title: 'Equal Pay Day',
+  },
+  {
+    date: '2020-04-15',
+    title: 'Banana Day',
+  },
+  {
+    date: '2020-04-16',
+    title: 'High Five Day',
+  },
+  {
+    date: '2020-04-17',
+    title: 'Day Of Silence',
+  },
+  {
+    date: '2020-04-18',
+    title: 'Record Store Day',
+  },
+  {
+    date: '2020-04-19',
+    title: 'Hanging Out Day',
+  },
+  {
+    date: '2020-04-20',
+    title: 'Chinese Language Day',
+  },
+  {
+    date: '2020-04-21',
+    title: 'World Creativity Day',
+  },
+  {
+    date: '2020-04-22',
+    title: 'Earth Day',
+  },
+  {
+    date: '2020-04-23',
+    title: 'Thank You Thursday',
+  },
+  {
+    date: '2020-04-24',
+    title: 'Firefly Day',
+  },
+  {
+    date: '2020-04-25',
+    title: 'Save The Frogs Day',
+  },
+  {
+    date: '2020-04-26',
+    title: 'Get Organized Day',
+  },
+  {
+    date: '2020-04-27',
+    title: 'Morse Code Day',
+  },
+  {
+    date: '2020-04-28',
+    title: 'Superhero Day',
+  },
+  {
+    date: '2020-04-29',
+    title: 'World Wish Day',
+  },
+  {
+    date: '2020-04-30',
+    title: 'Oatmeal Cookie Day',
+  },
+  {
+    date: '2020-05-01',
+    title: 'Global Love Day',
+  },
+  {
+    date: '2020-05-02',
+    title: 'International Astronomy Day',
+  },
+  {
+    date: '2020-05-03',
+    title: 'Paranormal Day',
+  },
+  {
+    date: '2020-05-04',
+    title: 'May the Fourth',
+  },
+  {
+    date: '2020-05-05',
+    title: 'Cartoonists Day',
+  },
+  {
+    date: '2020-05-06',
+    title: 'No Homework Day',
+  },
+  {
+    date: '2020-05-07',
+    title: 'Password Day',
+  },
+  {
+    date: '2020-05-08',
+    title: 'World Donkey Day',
+  },
+  {
+    date: '2020-05-09',
+    title: 'Windmill Day',
+  },
+  {
+    date: '2020-05-10',
+    title: 'Mother Ocean Day',
+  },
+  {
+    date: '2020-05-11',
+    title: 'Accounting Day',
+  },
+  {
+    date: '2020-05-12',
+    title: 'Limerick Day',
+  },
+  {
+    date: '2020-05-13',
+    title: 'Apple Pie Day',
+  },
+  {
+    date: '2020-05-14',
+    title: 'Chicken Dance Day',
+  },
+  {
+    date: '2020-05-15',
+    title: 'Bike To Work Day',
+  },
+  {
+    date: '2020-05-16',
+    title: 'Drawing Day',
+  },
+  {
+    date: '2020-05-17',
+    title: 'Work From Home Day',
+  },
+  {
+    date: '2020-05-18',
+    title: 'Museum Day',
+  },
+  {
+    date: '2020-05-19',
+    title: 'May Ray Day',
+  },
+  {
+    date: '2020-05-20',
+    title: 'World Bee Day',
+  },
+  {
+    date: '2020-05-21',
+    title: 'Memo Day',
+  },
+  {
+    date: '2020-05-22',
+    title: 'Sherlock Holmes Day',
+  },
+  {
+    date: '2020-05-23',
+    title: 'Lucky Penny Day',
+  },
+  {
+    date: '2020-05-24',
+    title: 'Brother’s Day',
+  },
+  {
+    date: '2020-05-25',
+    title: 'Geek Pride Day',
+  },
+  {
+    date: '2020-05-26',
+    title: 'Paper Airplane Day',
+  },
+  {
+    date: '2020-05-27',
+    title: 'Cellophane Tape Day',
+  },
+  {
+    date: '2020-05-28',
+    title: 'Hamburger Day',
+  },
+  {
+    date: '2020-05-29',
+    title: 'Paper Clip Day',
+  },
+  {
+    date: '2020-05-30',
+    title: 'Loomis Day',
+  },
+  {
+    date: '2020-05-31',
+    title: 'Web Designer Day',
   },
 
   {
