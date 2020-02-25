@@ -19,7 +19,7 @@ query {
 </static-query>
 
 <script>
-import uuid from 'uuid/v4'
+import { v4 as uuid } from 'uuid'
 import collect from 'collect.js'
 import FlippingLogo from '@/components/FlippingLogo'
 
