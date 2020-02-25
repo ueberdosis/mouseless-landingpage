@@ -321,6 +321,19 @@ export default [
   },
 
   {
+    date: '2020-02-25',
+    title: 'National Pancake Day',
+  },
+  {
+    date: '2020-02-26',
+    title: 'Ash Wednesday',
+  },
+  {
+    date: '2020-02-27',
+    title: 'International Polar Bear Day',
+  },
+
+  {
     date: '2020-07-31',
     title: 'System Administrator Appreciation Day',
   },
