@@ -1,5 +1,11 @@
 <template>
   <div class="app-footer small">
+    <!-- <product-banner
+      href="https://glyphfinder.com/?ref=mouseless"
+      color="#FF624D"
+      headline="Have you seen Glyphfinder?"
+      subline="Every fricking glyph at your fingertips →"
+    /> -->
     <div class="app-footer__section app-footer__apps">
       <div class="app-footer__app" v-for="app in apps" :key="app.id">
         <g-link :to="app.path">
@@ -98,12 +104,14 @@ query {
 <script>
 import { Grid, GridItem } from '@/components/Grid'
 import NewsletterForm from '@/components/NewsletterForm'
+// import ProductBanner from '@/components/ProductBanner'
 
 export default {
   components: {
     Grid,
     GridItem,
     NewsletterForm,
+    // ProductBanner,
   },
 
   computed: {
