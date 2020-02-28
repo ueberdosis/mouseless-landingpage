@@ -61,11 +61,6 @@
                 Nope, not for now. But give us a shout and we’ll consider it.
               </p>
             </accordion>
-            <accordion title="Is Mouseless available on SetApp?">
-              <p>
-                Yes, Mouseless is <a href="https://go.setapp.com/stp268?refAppID=379&utm_medium=available_on_setapp_button&utm_source=379&utm_campaign=https://mouseless.app/">part of the SetApp catalogue.</a>
-              </p>
-            </accordion>
             <accordion title="Something’s wrong. How do I get in touch?">
               <p>
                 <a href="mailto:support@mouseless.app">Drop us a line</a>, we’ll be happy to help!
@@ -102,6 +97,28 @@
           </grid-item>
         </grid>
       </app-section>
+
+      <app-section color="black" id="download">
+        <h2>
+          Download
+        </h2>
+        <div>
+          <download-btn
+            icon="apple"
+            label="Download for"
+            text="macOS"
+            :href="downloadLink"
+            meta="macOS 10.14 or higher"
+          />
+          <download-btn
+            icon="setapp"
+            label="Available on"
+            text="Setapp"
+            href="https://go.setapp.com/stp268?refAppID=379&utm_medium=available_on_setapp_button&utm_source=379&utm_campaign=https://mouseless.app/"
+            :download="false"
+          />
+        </div>
+      </app-section>
     </main>
     <footer class="app__footer">
       <app-section>
@@ -125,6 +142,7 @@ query {
 
 <script>
 // import ProductHuntBar from '@/components/ProductHuntBar'
+import DownloadBtn from '@/components/DownloadBtn'
 import Navigation from '@/components/Navigation'
 import AppSection from '@/components/AppSection'
 import AppFooter from '@/components/AppFooter'
@@ -135,14 +153,8 @@ import Testimonials from '@/components/Testimonials'
 import { Grid, GridItem } from '@/components/Grid'
 
 export default {
-  props: {
-    navigationTheme: {
-      default: 'dark',
-      type: String,
-    },
-  },
-
   components: {
+    DownloadBtn,
     Navigation,
     AppSection,
     AppFooter,
@@ -152,6 +164,13 @@ export default {
     Testimonials,
     Grid,
     GridItem,
+  },
+
+  props: {
+    navigationTheme: {
+      default: 'dark',
+      type: String,
+    },
   },
 
   computed: {

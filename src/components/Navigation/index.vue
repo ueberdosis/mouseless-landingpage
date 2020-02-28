@@ -12,8 +12,7 @@
           </g-link>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" :href="downloadLink" download>
-            <icon name="apple" />
+          <a class="navigation__link" href="#download">
             Download
           </a>
         </li>
@@ -28,18 +27,12 @@
 </template>
 
 <script>
-import Icon from '@/components/Icon'
-
 export default {
   props: {
     theme: {
       default: 'dark',
       type: String,
     },
-  },
-
-  components: {
-    Icon,
   },
 }
 </script>
