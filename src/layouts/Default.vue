@@ -42,7 +42,10 @@
             <accordion title="Do you offer a trial?">
               <p>
                 We didn’t implement a trial yet, but no worries—feel free to purchase the app.
-                If it’s not for you send a short message. We’ll refund your order.
+                If you’re not happy send a short message. We’ll refund your order.
+              </p>
+              <p>
+                By the way, we’re part of the <a href="https://go.setapp.com/stp268?refAppID=379&utm_medium=available_on_setapp_button&utm_source=379&utm_campaign=https://mouseless.app/">SetApp</a> catalogue and they offer a free trial for 7 days. They give you access to 170+ apps, including Mouseless.
               </p>
             </accordion>
             <accordion title="The menubar app doesn’t work. What can I do?">
