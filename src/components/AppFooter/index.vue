@@ -4,7 +4,7 @@
       href="https://glyphfinder.com/?ref=mouseless"
       color="#FF624D"
       headline="Have you seen Glyphfinder?"
-      subline="Every fricking glyph at your fingertips →"
+      subline="Glyphfinder is the missing character search for designers, developers and writers →"
     /> -->
     <div class="app-footer__section app-footer__apps">
       <div class="app-footer__app" v-for="app in apps" :key="app.id">
@@ -104,14 +104,14 @@ query {
 <script>
 import { Grid, GridItem } from '@/components/Grid'
 import NewsletterForm from '@/components/NewsletterForm'
-// import ProductBanner from '@/components/ProductBanner'
+import ProductBanner from '@/components/ProductBanner'
 
 export default {
   components: {
     Grid,
     GridItem,
     NewsletterForm,
-    // ProductBanner,
+    ProductBanner,
   },
 
   computed: {
