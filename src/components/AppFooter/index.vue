@@ -1,11 +1,11 @@
 <template>
   <div class="app-footer small">
-    <!-- <product-banner
+    <product-banner
       href="https://glyphfinder.com/?ref=mouseless"
       color="#FF624D"
       headline="Have you seen Glyphfinder?"
       subline="Glyphfinder is the missing character search for designers, developers and writers →"
-    /> -->
+    />
     <div class="app-footer__section app-footer__apps">
       <div class="app-footer__app" v-for="app in apps" :key="app.id">
         <g-link :to="app.path">
