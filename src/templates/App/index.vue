@@ -10,9 +10,9 @@
         </p>
         <div class="app-page__hint">
           <div>
-            Keyboard shortcuts differ between keyboard layouts.
+            Keyboard shortcuts may differ between keyboard layouts.
             <!-- eslint-disable-next-line -->
-            <g-link to="/">Mouseless</g-link> is clever enough to
+            <g-link to="/">Mouseless</g-link> is smart enough to
             show the exact keys according to your layout.
           </div>
         </div>
