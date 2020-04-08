@@ -1,10 +1,9 @@
-/* eslint-disable max-len */
 // https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0
 module.exports = {
   id: 'notion',
   title: 'Notion',
   category: 'Productivity',
-  description: 'Notion is a real productivity boost for teams. Learn a few of the keyboard shortcuts for macOS to make the most out of it. Your team will love you.',
+  description: 'Notion is a real productivity boost for teams. Learn a few of the keyboard shortcuts to make the most out of it. Your team will love you.',
   sets: [
     {
       title: 'Essentials',

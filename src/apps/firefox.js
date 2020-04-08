@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 // https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly#w_media-shortcuts
 // https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts
 module.exports = {
@@ -100,7 +99,7 @@ module.exports = {
         },
         {
           title: 'Delete',
-          keys: ['Delete'],
+          keys: ['Backspace'],
         },
         {
           title: 'Go to End of Line',
@@ -328,7 +327,7 @@ module.exports = {
         },
         {
           title: 'Clear Recent History',
-          keys: ['Meta', 'Shift', 'Delete'],
+          keys: ['Meta', 'Shift', 'Backspace'],
         },
       ],
     },
@@ -371,10 +370,6 @@ module.exports = {
         {
           title: 'Add-ons',
           keys: ['Meta', 'Shift', 'a'],
-        },
-        {
-          title: 'Scratchpad',
-          keys: ['Shift', 'F4'],
         },
         {
           title: 'PageSource',
@@ -448,7 +443,7 @@ module.exports = {
         },
         {
           title: 'Delete Selected Autocomplete Entry',
-          keys: ['Shift', 'Delete'],
+          keys: ['Shift', 'Backspace'],
         },
         {
           title: 'Toggle Full Screen',
@@ -588,10 +583,6 @@ module.exports = {
         {
           title: 'Open Browser Toolbox',
           keys: ['Meta', 'Alt', 'Shift', 'i'],
-        },
-        {
-          title: 'Open Scratchpad',
-          keys: ['Shift', 'F4'],
         },
         {
           title: 'Open WebIDE',

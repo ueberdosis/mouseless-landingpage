@@ -1,5 +1,6 @@
 import collect from 'collect.js'
 import moment from 'moment'
+import keyboardSymbol from 'keyboard-symbol'
 import DefaultLayout from '~/layouts/Default.vue'
 import discountDates from './discountDates'
 
@@ -57,29 +58,7 @@ export default function (Vue, { router, head, isClient }) {
     content: 'summary',
   })
 
-  Vue.filter('key', name => {
-    const formats = {
-      CapsLock: '⇪',
-      Shift: '⇧',
-      Control: '⌃',
-      Alt: '⌥',
-      Meta: '⌘',
-      ArrowUp: '↑',
-      ArrowRight: '→',
-      ArrowDown: '↓',
-      ArrowLeft: '←',
-      Enter: '↩',
-      Backspace: '⌫',
-      Delete: '⌦',
-      Escape: '⎋',
-      Tab: '⇥',
-      PageUp: '⇞',
-      PageDown: '⇟',
-      Space: '␣',
-    }
-
-    return formats[name] ? formats[name] : name
-  })
+  Vue.filter('key', value => keyboardSymbol(value, 'mac'))
 
   Vue.filter('uppercase', value => {
     const ignoredCharacters = ['ß']

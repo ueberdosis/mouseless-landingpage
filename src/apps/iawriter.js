@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 // https://ia.net/writer/support/general/keyboard
 module.exports = {
   id: 'iawriter',
@@ -116,7 +115,7 @@ module.exports = {
         },
         {
           title: 'Clear Styles',
-          keys: ['Alt', 'Meta', 'Delete'],
+          keys: ['Alt', 'Meta', 'Backspace'],
         },
       ],
     },

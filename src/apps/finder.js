@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 // https://support.apple.com/en-gb/HT201236
 module.exports = {
   id: 'finder',
@@ -9,7 +8,7 @@ module.exports = {
     {
       title: 'Essentials',
       id: 'essentials',
-      version: 1,
+      version: 2,
       shortcuts: [
         {
           title: 'Create a new folder',
@@ -18,6 +17,10 @@ module.exports = {
         {
           title: 'Open a new Finder window',
           keys: ['Meta', 'n'],
+        },
+        {
+          title: 'Open a new tab',
+          keys: ['Meta', 't'],
         },
         {
           title: 'Create a new Smart Folder',
@@ -125,7 +128,7 @@ module.exports = {
     {
       title: 'Layout',
       id: 'layout',
-      version: 1,
+      version: 2,
       shortcuts: [
         {
           title: 'View the items in the Finder window as icons',
@@ -164,10 +167,6 @@ module.exports = {
           keys: ['Meta', '/'],
         },
         {
-          title: 'Show or hide the tab bar when a single tab is open in the current Finder window',
-          keys: ['Meta', 't'],
-        },
-        {
           title: 'Show or hide the toolbar when a single tab is open in the current Finder window',
           keys: ['Alt', 'Meta', 't'],
         },
@@ -184,15 +183,15 @@ module.exports = {
       shortcuts: [
         {
           title: 'Move the selected item to the Trash',
-          keys: ['Meta', 'Delete'],
+          keys: ['Meta', 'Backspace'],
         },
         {
           title: 'Empty the Trash',
-          keys: ['Shift', 'Meta', 'Delete'],
+          keys: ['Shift', 'Meta', 'Backspace'],
         },
         {
           title: 'Empty the Trash without confirmation dialog',
-          keys: ['Alt', 'Shift', 'Meta', 'Delete'],
+          keys: ['Alt', 'Shift', 'Meta', 'Backspace'],
         },
       ],
     },

@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 // https://university.webflow.com/article/keyboard-shortcuts-in-the-webflow-designer
 module.exports = {
   id: 'webflow',
@@ -25,7 +24,7 @@ module.exports = {
         },
         {
           title: 'Delete Element',
-          keys: ['Delete'],
+          keys: ['Backspace'],
         },
         {
           title: 'Show Publish Dialog',

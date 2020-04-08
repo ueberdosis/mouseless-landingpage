@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 // https://www.sketch.com/docs/shortcuts/
 module.exports = {
   id: 'sketch',
@@ -663,7 +662,7 @@ module.exports = {
         },
         {
           title: 'Emoji & symbols',
-          keys: ['Alt', 'Meta', 'Space'],
+          keys: ['Control', 'Meta', 'Space'],
         },
       ],
     },
