@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59705c0a-fd23-41e5-99be-78b145c55358/deploy-status)](https://app.netlify.com/sites/mouseless/deploys)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
-<img width="640" src="https://github.com/ueberdosis/mouseless-landingpage/blob/master/static/screenshot.png?raw=true">
+<img width="640" src="https://github.com/ueberdosis/mouseless-landingpage/blob/main/static/screenshot.png?raw=true">
 
 This landingpage is used to promote [Mouseless](https://github.com/ueberdosis/mouseless) (which is open source, too). We use [Gridsome](https://gridsome.org/) (based on Vue.js) as a static site generator. Funfact: The main branch is deployed to https://mouseless.app on push.
 
