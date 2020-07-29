@@ -951,11 +951,6 @@ export default [
   },
   {
     date: '2020-07-31',
-    title: 'Raspberry Cake Day',
-  },
-
-  {
-    date: '2020-07-31',
     title: 'System Administrator Appreciation Day',
   },
   {
