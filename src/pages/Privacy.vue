@@ -32,7 +32,7 @@
         Simple Analytics
       </h3>
       <p>
-        To get critical information about the behavior of our visitors, we use <a href="https://simpleanalytics.com" target="_blank">Simple Analytics</a>. This analytics software gives us insight about our visitors only in general, but not about individuals per say, as it does not track visitors and does not store any personal identifiable information. <a href="https://docs.simpleanalytics.com/what-we-collect" target="_blank">Go to their documentation</a> to find out what Simple Analytics collects (and most importantly what they don't).
+        To get critical information about the behavior of our visitors, we use <a href="https://simpleanalytics.com" target="_blank">Simple Analytics</a>. This analytics software gives us insight about our visitors only in general, but not about individuals per se, as it does not track visitors and does not store any personal identifiable information. <a href="https://docs.simpleanalytics.com/what-we-collect" target="_blank">Go to their documentation</a> to find out what Simple Analytics collects (and most importantly what they don't).
       </p>
       <p>
         Or have a look at our analytics dashboard: <a href="https://simpleanalytics.com/mouseless.app">https://simpleanalytics.com/mouseless.app</a>
