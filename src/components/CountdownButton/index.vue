@@ -47,7 +47,7 @@
       </client-only>
       <btn :href="gumroadLink" target="_blank" class="countdown-button__button">
         <template v-if="activeDiscount">
-          Buy for <s>$20</s> <span class="countdown-button__price green">$15</span>
+          Buy for <s>$20</s> <span class="countdown-button__price green">${{ discountedPrice }}</span>
         </template>
         <template v-else-if="showPrice">
           Buy for $20
@@ -58,7 +58,7 @@
       </btn>
     </div>
     <div class="countdown-button__discount" v-if="activeDiscount">
-      25% off on {{ activeDiscount.title }} · 30-Day Money-Back Guarantee
+      {{ discountedLabel }} · 30-Day Money-Back Guarantee
     </div>
     <div class="countdown-button__discount" v-else>
       30-Day Money-Back Guarantee
@@ -86,6 +86,36 @@ export default {
   filters: {
     value(value) {
       return value.toString().padStart(2, 0)
+    },
+  },
+
+  computed: {
+    discountedLabel() {
+      const label = []
+
+      if (this.activeDiscount.percentage) {
+        label.push(`${this.activeDiscount.percentage * 100}%`)
+      } else {
+        label.push('50%')
+      }
+
+      label.push(' off')
+
+      if (this.activeDiscount.title) {
+        label.push(` on ${this.activeDiscount.title}`)
+      } else {
+        label.push(' today')
+      }
+
+      return label.join('')
+    },
+
+    discountedPrice() {
+      if (this.activeDiscount.price) {
+        return this.activeDiscount.price
+      }
+
+      return 20
     },
   },
 }

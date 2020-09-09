@@ -954,6 +954,12 @@ export default [
     title: 'System Administrator Appreciation Day',
   },
   {
+    date: '2020-09-09',
+    title: null,
+    percentage: 0.5,
+    price: 9.99,
+  },
+  {
     date: '2020-11-21',
     title: '1 Year Mouseless',
   },
