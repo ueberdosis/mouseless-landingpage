@@ -96,7 +96,7 @@ export default {
       if (this.activeDiscount.percentage) {
         label.push(`${this.activeDiscount.percentage * 100}%`)
       } else {
-        label.push('50%')
+        label.push('25%')
       }
 
       label.push(' off')
@@ -115,7 +115,7 @@ export default {
         return this.activeDiscount.price
       }
 
-      return 20
+      return 15
     },
   },
 }

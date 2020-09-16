@@ -2,7 +2,12 @@ import collect from 'collect.js'
 import moment from 'moment'
 import keyboardSymbol from 'keyboard-symbol'
 import DefaultLayout from '~/layouts/Default.vue'
-import discountDates from './discountDates'
+
+// import discountDates from './discountDates'
+const isWeekend = moment().day() === 0 || moment().day() === 6
+const discountDates = isWeekend ? [] : [{
+  date: moment().format('YYYY-MM-DD'),
+}]
 
 const now = moment.utc()
 const dateFormat = 'YYYY-MM-DD hh:mm:ss'
