@@ -47,7 +47,7 @@
       </client-only>
       <btn :href="gumroadLink" target="_blank" class="countdown-button__button">
         <template v-if="activeDiscount">
-          Buy for <s>$20</s> <span class="countdown-button__price green">${{ discountedPrice }}</span>
+          Buy for ​<s>$20</s> <span class="countdown-button__price green">${{ discountedPrice }}</span>
         </template>
         <template v-else-if="showPrice">
           Buy for $20
