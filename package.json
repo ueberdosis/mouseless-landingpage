@@ -11,7 +11,7 @@
     "@chenfengyuan/vue-countdown": "^1.1.5",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "axios": "^0.20.0",
-    "collect.js": "^4.28.2",
+    "collect.js": "^4.28.4",
     "gridilydidily": "^3.0.1",
     "gridsome": "^0.7.20",
     "gsap": "^3.2.6",
