@@ -7,9 +7,9 @@
       </g-link>
       <ul class="navigation__menu">
         <li class="navigation__item">
-          <g-link class="navigation__link" to="/">
+          <a class="navigation__link" href="#features">
             Features
-          </g-link>
+          </a>
         </li>
         <li class="navigation__item">
           <a class="navigation__link" href="#download">
