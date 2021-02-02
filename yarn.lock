@@ -4712,11 +4712,6 @@ gridilydidily@^3.0.1:
   resolved "https://registry.yarnpkg.com/gridilydidily/-/gridilydidily-3.0.1.tgz#6d2333a22d8432c09bf69dba748953e1f3c328dd"
   integrity sha1-bSMzoi2EMsCb9p26dIlT4fPDKN0=
 
-gridsome-plugin-plausible-analytics@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.0.0.tgz#251d21334d6ac12df8967724fc55a079ffec9395"
-  integrity sha512-KMEQzxy3jefHH8ZDPbKttsrrEt4uSebn+saHtRkZx9pXR7DJmge0uE6+ImzsBXdpNuOvMTa6XGZVrwm00VC/QQ==
-
 gridsome@^0.7.20:
   version "0.7.23"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.23.tgz#d8b06bdf6b4ed06411be3ec3696324f29c83063e"
