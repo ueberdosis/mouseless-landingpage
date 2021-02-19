@@ -44,11 +44,6 @@
             <grid-item :options="{ medium: '6/12' }">
               <ul>
                 <li>
-                  <a href="https://floatie.app/mouseless" target="_blank">
-                    Open Startup
-                  </a>
-                </li>
-                <li>
                   <a href="/mouseless-press-kit.zip" download>
                     Press Kit
                   </a>
