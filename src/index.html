@@ -8,10 +8,6 @@
     ${scripts}
 
     ${process.env.NODE_ENV === 'production'
-      ? '<script async defer src="https://data.mouseless.app/app.js"></script><noscript><img src="https://data.mouseless.app/image.gif" alt=""></noscript>'
-      : ''
-    }
-    ${process.env.NODE_ENV === 'production'
       ? '<script async defer data-domain="mouseless.app" src="https://plausible.io/js/plausible.js"></script>'
       : ''
     }
