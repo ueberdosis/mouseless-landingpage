@@ -62,7 +62,7 @@
             </grid-item>
           </grid>
           <p>
-            Made with 💛 by <a href="https://twitter.com/_ueberdosis" target="_blank">überdosis</a>
+            Made with 💛 by <a href="https://ueberdosis.io" target="_blank">überdosis</a>
             · Icon designed by <a href="https://twitter.com/juliusgehrig" target="_blank">Julius Gehrig</a>
           </p>
         </grid-item>
