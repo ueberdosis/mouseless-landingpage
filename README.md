@@ -1,3 +1,5 @@
+### ⚠️ This project is discontinued. Feel free to fork it!
+
 # Mouseless Landingpage
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59705c0a-fd23-41e5-99be-78b145c55358/deploy-status)](https://app.netlify.com/sites/mouseless/deploys)
